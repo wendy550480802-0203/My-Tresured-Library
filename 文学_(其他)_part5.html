@@ -1133,14 +1133,23 @@ function showDetail(d){
     html += '</div>';
   }
 
-  /* 四层笔记 */
+          /* 四层笔记 */
   if(d.fourLayerNotes){
-    html += '<div class="section"><div class="section-title">📚 四层笔记</div><div class="four-layer-notes">' + d.fourLayerNotes.replace(/# /g, '<h3>').replace(/## /g, '<h4>').replace(/
+    var notesHtml = d.fourLayerNotes;
+    // Markdown转HTML（简单版）
+    notesHtml = notesHtml.replace(/^# (.*)$/gm, '<h3>$1</h3>');
+    notesHtml = notesHtml.replace(/^## (.*)$/gm, '<h4>$1</h4>');
+    notesHtml = notesHtml.replace(/^### (.*)$/gm, '<h5>$1</h5>');
+    notesHtml = notesHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    notesHtml = notesHtml.replace(/^- (.*)$/gm, '<li>$1</li>');
+    notesHtml = notesHtml.replace(/
 
-/g, '<br><br>').replace(/
-/g, '<br>') + '</div></div>';
+/g, '<br><br>');
+    notesHtml = notesHtml.replace(/
+/g, '<br>');
+    html += '<div class="section"><div class="section-title">📚 四层笔记</div><div class="four-layer-notes">' + notesHtml + '</div></div>';
   }
-  
+
   /* 打开原文件：用 Obsidian URI 协议，避免浏览器 file:// 限制 */
   if(d.path){
     var obsidianUrl = "obsidian://open?path=" + encodeURIComponent(d.path);
