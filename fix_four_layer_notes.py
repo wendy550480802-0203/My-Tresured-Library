@@ -110,10 +110,12 @@ def add_js_rendering(html_content):
   }'''
         
         # 使用正则表达式替换旧的渲染代码
+        # 注意：re.sub的replacement如果是字符串，会处理反斜杠转义
+        # 所以使用lambda函数来避免这个问题
         pattern = r'/\* 四层笔记 \*/[\s\S]*?/\* 打开原文件'
-        replacement = new_rendering + '\n\n  /* 打开原文件'
+        replacement_text = new_rendering + '\n\n  /* 打开原文件'
         
-        new_content = re.sub(pattern, replacement, html_content)
+        new_content = re.sub(pattern, lambda m: replacement_text, html_content)
         
         if new_content == html_content:
             # 没找到标记，尝试直接添加到showDetail函数
