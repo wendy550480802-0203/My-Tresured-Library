@@ -1,0 +1,1141 @@
+{
+  "total_domains": 27,
+  "domains": [
+    {
+      "domain": "IT",
+      "color": "#67e8f9",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "IT.json",
+          "nodes": 225,
+          "links": 459,
+          "count": 225
+        }
+      ]
+    },
+    {
+      "domain": "个人成长",
+      "color": "#fb923c",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "个人成长.json",
+          "nodes": 461,
+          "links": 3965,
+          "count": 461
+        }
+      ]
+    },
+    {
+      "domain": "产品",
+      "color": "#a855f7",
+      "pages": [
+        {
+          "name": "(其他)",
+          "file": "产品_(其他).json",
+          "nodes": 553,
+          "links": 3611,
+          "count": 553
+        },
+        {
+          "name": "产品思维",
+          "file": "产品_产品思维.json",
+          "nodes": 30,
+          "links": 146,
+          "count": 30
+        },
+        {
+          "name": "小程序生态",
+          "file": "产品_小程序生态.json",
+          "nodes": 66,
+          "links": 618,
+          "count": 66
+        },
+        {
+          "name": "用户增长",
+          "file": "产品_用户增长.json",
+          "nodes": 49,
+          "links": 303,
+          "count": 49
+        }
+      ]
+    },
+    {
+      "domain": "会计",
+      "color": "#86efac",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "会计.json",
+          "nodes": 67,
+          "links": 140,
+          "count": 67
+        }
+      ]
+    },
+    {
+      "domain": "健康",
+      "color": "#34d399",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "健康.json",
+          "nodes": 284,
+          "links": 497,
+          "count": 284
+        }
+      ]
+    },
+    {
+      "domain": "写作",
+      "color": "#c084fc",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "写作.json",
+          "nodes": 238,
+          "links": 403,
+          "count": 238
+        }
+      ]
+    },
+    {
+      "domain": "历史",
+      "color": "#06b6d4",
+      "pages": [
+        {
+          "name": "(其他)（1/5）",
+          "file": "历史_(其他)_part1.json",
+          "nodes": 600,
+          "links": 8578,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/5）",
+          "file": "历史_(其他)_part2.json",
+          "nodes": 600,
+          "links": 1241,
+          "count": 600
+        },
+        {
+          "name": "(其他)（3/5）",
+          "file": "历史_(其他)_part3.json",
+          "nodes": 600,
+          "links": 747,
+          "count": 600
+        },
+        {
+          "name": "(其他)（4/5）",
+          "file": "历史_(其他)_part4.json",
+          "nodes": 600,
+          "links": 1059,
+          "count": 600
+        },
+        {
+          "name": "(其他)（5/5）",
+          "file": "历史_(其他)_part5.json",
+          "nodes": 541,
+          "links": 491,
+          "count": 541
+        },
+        {
+          "name": "世界史",
+          "file": "历史_世界史.json",
+          "nodes": 36,
+          "links": 86,
+          "count": 36
+        },
+        {
+          "name": "中国历史",
+          "file": "历史_中国历史.json",
+          "nodes": 96,
+          "links": 1198,
+          "count": 96
+        },
+        {
+          "name": "中国古代文学",
+          "file": "历史_中国古代文学.json",
+          "nodes": 31,
+          "links": 48,
+          "count": 31
+        },
+        {
+          "name": "中国现代文学",
+          "file": "历史_中国现代文学.json",
+          "nodes": 72,
+          "links": 234,
+          "count": 72
+        },
+        {
+          "name": "中国近代史",
+          "file": "历史_中国近代史.json",
+          "nodes": 64,
+          "links": 305,
+          "count": 64
+        },
+        {
+          "name": "人物传记",
+          "file": "历史_人物传记.json",
+          "nodes": 143,
+          "links": 272,
+          "count": 143
+        },
+        {
+          "name": "军事历史",
+          "file": "历史_军事历史.json",
+          "nodes": 55,
+          "links": 114,
+          "count": 55
+        },
+        {
+          "name": "历史",
+          "file": "历史_历史.json",
+          "nodes": 538,
+          "links": 1030,
+          "count": 538
+        },
+        {
+          "name": "历史与政治",
+          "file": "历史_历史与政治.json",
+          "nodes": 50,
+          "links": 90,
+          "count": 50
+        },
+        {
+          "name": "历史人物传记",
+          "file": "历史_历史人物传记.json",
+          "nodes": 57,
+          "links": 102,
+          "count": 57
+        },
+        {
+          "name": "历史学",
+          "file": "历史_历史学.json",
+          "nodes": 189,
+          "links": 436,
+          "count": 189
+        },
+        {
+          "name": "历史小说",
+          "file": "历史_历史小说.json",
+          "nodes": 50,
+          "links": 135,
+          "count": 50
+        },
+        {
+          "name": "历史研究",
+          "file": "历史_历史研究.json",
+          "nodes": 162,
+          "links": 273,
+          "count": 162
+        },
+        {
+          "name": "思想史",
+          "file": "历史_思想史.json",
+          "nodes": 41,
+          "links": 121,
+          "count": 41
+        },
+        {
+          "name": "文学与历史",
+          "file": "历史_文学与历史.json",
+          "nodes": 61,
+          "links": 105,
+          "count": 61
+        },
+        {
+          "name": "科技史",
+          "file": "历史_科技史.json",
+          "nodes": 33,
+          "links": 59,
+          "count": 33
+        },
+        {
+          "name": "艺术史",
+          "file": "历史_艺术史.json",
+          "nodes": 83,
+          "links": 152,
+          "count": 83
+        },
+        {
+          "name": "西方哲学史",
+          "file": "历史_西方哲学史.json",
+          "nodes": 36,
+          "links": 124,
+          "count": 36
+        }
+      ]
+    },
+    {
+      "domain": "哲学",
+      "color": "#14b8a6",
+      "pages": [
+        {
+          "name": "(其他)（1/2）",
+          "file": "哲学_(其他)_part1.json",
+          "nodes": 600,
+          "links": 2360,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/2）",
+          "file": "哲学_(其他)_part2.json",
+          "nodes": 272,
+          "links": 427,
+          "count": 272
+        },
+        {
+          "name": "中国哲学",
+          "file": "哲学_中国哲学.json",
+          "nodes": 41,
+          "links": 74,
+          "count": 41
+        },
+        {
+          "name": "人生哲学",
+          "file": "哲学_人生哲学.json",
+          "nodes": 60,
+          "links": 146,
+          "count": 60
+        },
+        {
+          "name": "哲学",
+          "file": "哲学_哲学.json",
+          "nodes": 86,
+          "links": 221,
+          "count": 86
+        },
+        {
+          "name": "政治哲学",
+          "file": "哲学_政治哲学.json",
+          "nodes": 61,
+          "links": 111,
+          "count": 61
+        },
+        {
+          "name": "生活哲学",
+          "file": "哲学_生活哲学.json",
+          "nodes": 37,
+          "links": 76,
+          "count": 37
+        },
+        {
+          "name": "社会哲学",
+          "file": "哲学_社会哲学.json",
+          "nodes": 33,
+          "links": 48,
+          "count": 33
+        },
+        {
+          "name": "科学哲学",
+          "file": "哲学_科学哲学.json",
+          "nodes": 37,
+          "links": 78,
+          "count": 37
+        }
+      ]
+    },
+    {
+      "domain": "商业",
+      "color": "#10b981",
+      "pages": [
+        {
+          "name": "(其他)（1/3）",
+          "file": "商业_(其他)_part1.json",
+          "nodes": 600,
+          "links": 2794,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/3）",
+          "file": "商业_(其他)_part2.json",
+          "nodes": 600,
+          "links": 805,
+          "count": 600
+        },
+        {
+          "name": "(其他)（3/3）",
+          "file": "商业_(其他)_part3.json",
+          "nodes": 391,
+          "links": 438,
+          "count": 391
+        },
+        {
+          "name": "企业管理",
+          "file": "商业_企业管理.json",
+          "nodes": 58,
+          "links": 129,
+          "count": 58
+        },
+        {
+          "name": "健康管理",
+          "file": "商业_健康管理.json",
+          "nodes": 41,
+          "links": 81,
+          "count": 41
+        },
+        {
+          "name": "创业管理",
+          "file": "商业_创业管理.json",
+          "nodes": 36,
+          "links": 73,
+          "count": 36
+        },
+        {
+          "name": "商业战略",
+          "file": "商业_商业战略.json",
+          "nodes": 36,
+          "links": 68,
+          "count": 36
+        },
+        {
+          "name": "商业管理",
+          "file": "商业_商业管理.json",
+          "nodes": 64,
+          "links": 104,
+          "count": 64
+        },
+        {
+          "name": "投资理财",
+          "file": "商业_投资理财.json",
+          "nodes": 55,
+          "links": 90,
+          "count": 55
+        },
+        {
+          "name": "知识管理",
+          "file": "商业_知识管理.json",
+          "nodes": 36,
+          "links": 52,
+          "count": 36
+        },
+        {
+          "name": "管理",
+          "file": "商业_管理.json",
+          "nodes": 55,
+          "links": 86,
+          "count": 55
+        },
+        {
+          "name": "组织管理",
+          "file": "商业_组织管理.json",
+          "nodes": 36,
+          "links": 76,
+          "count": 36
+        },
+        {
+          "name": "经济学",
+          "file": "商业_经济学.json",
+          "nodes": 74,
+          "links": 102,
+          "count": 74
+        },
+        {
+          "name": "金融投资",
+          "file": "商业_金融投资.json",
+          "nodes": 66,
+          "links": 127,
+          "count": 66
+        },
+        {
+          "name": "领导力",
+          "file": "商业_领导力.json",
+          "nodes": 76,
+          "links": 137,
+          "count": 76
+        }
+      ]
+    },
+    {
+      "domain": "图书馆学",
+      "color": "#5eead4",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "图书馆学.json",
+          "nodes": 23,
+          "links": 110,
+          "count": 23
+        }
+      ]
+    },
+    {
+      "domain": "宗教",
+      "color": "#c4b5fd",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "宗教.json",
+          "nodes": 19,
+          "links": 22,
+          "count": 19
+        }
+      ]
+    },
+    {
+      "domain": "心理学",
+      "color": "#f59e0b",
+      "pages": [
+        {
+          "name": "(其他)（1/4）",
+          "file": "心理学_(其他)_part1.json",
+          "nodes": 600,
+          "links": 3442,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/4）",
+          "file": "心理学_(其他)_part2.json",
+          "nodes": 600,
+          "links": 736,
+          "count": 600
+        },
+        {
+          "name": "(其他)（3/4）",
+          "file": "心理学_(其他)_part3.json",
+          "nodes": 600,
+          "links": 861,
+          "count": 600
+        },
+        {
+          "name": "(其他)（4/4）",
+          "file": "心理学_(其他)_part4.json",
+          "nodes": 70,
+          "links": 1,
+          "count": 70
+        },
+        {
+          "name": "个人成长与心理学",
+          "file": "心理学_个人成长与心理学.json",
+          "nodes": 31,
+          "links": 39,
+          "count": 31
+        },
+        {
+          "name": "心理健康",
+          "file": "心理学_心理健康.json",
+          "nodes": 31,
+          "links": 48,
+          "count": 31
+        },
+        {
+          "name": "心理学",
+          "file": "心理学_心理学.json",
+          "nodes": 239,
+          "links": 445,
+          "count": 239
+        },
+        {
+          "name": "教育心理学",
+          "file": "心理学_教育心理学.json",
+          "nodes": 43,
+          "links": 122,
+          "count": 43
+        },
+        {
+          "name": "文学与心理学",
+          "file": "心理学_文学与心理学.json",
+          "nodes": 119,
+          "links": 190,
+          "count": 119
+        },
+        {
+          "name": "沟通技巧",
+          "file": "心理学_沟通技巧.json",
+          "nodes": 33,
+          "links": 62,
+          "count": 33
+        },
+        {
+          "name": "社会心理学",
+          "file": "心理学_社会心理学.json",
+          "nodes": 76,
+          "links": 136,
+          "count": 76
+        },
+        {
+          "name": "认知心理学",
+          "file": "心理学_认知心理学.json",
+          "nodes": 60,
+          "links": 92,
+          "count": 60
+        },
+        {
+          "name": "认知科学",
+          "file": "心理学_认知科学.json",
+          "nodes": 39,
+          "links": 52,
+          "count": 39
+        }
+      ]
+    },
+    {
+      "domain": "房地产",
+      "color": "#6ee7b7",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "房地产.json",
+          "nodes": 12,
+          "links": 21,
+          "count": 12
+        }
+      ]
+    },
+    {
+      "domain": "政治",
+      "color": "#fbbf24",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "政治.json",
+          "nodes": 253,
+          "links": 457,
+          "count": 253
+        }
+      ]
+    },
+    {
+      "domain": "教育",
+      "color": "#ec4899",
+      "pages": [
+        {
+          "name": "(其他)（1/2）",
+          "file": "教育_(其他)_part1.json",
+          "nodes": 600,
+          "links": 2339,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/2）",
+          "file": "教育_(其他)_part2.json",
+          "nodes": 382,
+          "links": 422,
+          "count": 382
+        },
+        {
+          "name": "个人成长",
+          "file": "教育_个人成长.json",
+          "nodes": 250,
+          "links": 506,
+          "count": 250
+        },
+        {
+          "name": "儿童教育",
+          "file": "教育_儿童教育.json",
+          "nodes": 62,
+          "links": 100,
+          "count": 62
+        },
+        {
+          "name": "家庭教育",
+          "file": "教育_家庭教育.json",
+          "nodes": 57,
+          "links": 105,
+          "count": 57
+        },
+        {
+          "name": "教育理念",
+          "file": "教育_教育理念.json",
+          "nodes": 68,
+          "links": 106,
+          "count": 68
+        },
+        {
+          "name": "财商教育",
+          "file": "教育_财商教育.json",
+          "nodes": 48,
+          "links": 234,
+          "count": 48
+        }
+      ]
+    },
+    {
+      "domain": "文学",
+      "color": "#8b5cf6",
+      "pages": [
+        {
+          "name": "(其他)（1/5）",
+          "file": "文学_(其他)_part1.json",
+          "nodes": 600,
+          "links": 1600,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/5）",
+          "file": "文学_(其他)_part2.json",
+          "nodes": 600,
+          "links": 706,
+          "count": 600
+        },
+        {
+          "name": "(其他)（3/5）",
+          "file": "文学_(其他)_part3.json",
+          "nodes": 600,
+          "links": 762,
+          "count": 600
+        },
+        {
+          "name": "(其他)（4/5）",
+          "file": "文学_(其他)_part4.json",
+          "nodes": 600,
+          "links": 765,
+          "count": 600
+        },
+        {
+          "name": "(其他)（5/5）",
+          "file": "文学_(其他)_part5.json",
+          "nodes": 34,
+          "links": 1,
+          "count": 34
+        },
+        {
+          "name": "中国古典文学",
+          "file": "文学_中国古典文学.json",
+          "nodes": 112,
+          "links": 220,
+          "count": 112
+        },
+        {
+          "name": "儿童文学",
+          "file": "文学_儿童文学.json",
+          "nodes": 42,
+          "links": 116,
+          "count": 42
+        },
+        {
+          "name": "古典文学",
+          "file": "文学_古典文学.json",
+          "nodes": 92,
+          "links": 169,
+          "count": 92
+        },
+        {
+          "name": "奇幻文学",
+          "file": "文学_奇幻文学.json",
+          "nodes": 51,
+          "links": 104,
+          "count": 51
+        },
+        {
+          "name": "女性主义文学",
+          "file": "文学_女性主义文学.json",
+          "nodes": 38,
+          "links": 79,
+          "count": 38
+        },
+        {
+          "name": "悬疑小说分析",
+          "file": "文学_悬疑小说分析.json",
+          "nodes": 52,
+          "links": 62,
+          "count": 52
+        },
+        {
+          "name": "推理小说",
+          "file": "文学_推理小说.json",
+          "nodes": 58,
+          "links": 156,
+          "count": 58
+        },
+        {
+          "name": "推理小说分析",
+          "file": "文学_推理小说分析.json",
+          "nodes": 126,
+          "links": 224,
+          "count": 126
+        },
+        {
+          "name": "推理文学",
+          "file": "文学_推理文学.json",
+          "nodes": 35,
+          "links": 34,
+          "count": 35
+        },
+        {
+          "name": "文学",
+          "file": "文学_文学.json",
+          "nodes": 223,
+          "links": 347,
+          "count": 223
+        },
+        {
+          "name": "文学与个人成长",
+          "file": "文学_文学与个人成长.json",
+          "nodes": 55,
+          "links": 74,
+          "count": 55
+        },
+        {
+          "name": "文学与人生哲学",
+          "file": "文学_文学与人生哲学.json",
+          "nodes": 50,
+          "links": 90,
+          "count": 50
+        },
+        {
+          "name": "文学与哲学",
+          "file": "文学_文学与哲学.json",
+          "nodes": 303,
+          "links": 646,
+          "count": 303
+        },
+        {
+          "name": "文学与社会学",
+          "file": "文学_文学与社会学.json",
+          "nodes": 43,
+          "links": 50,
+          "count": 43
+        },
+        {
+          "name": "文学分析（1/6）",
+          "file": "文学_文学分析_part1.json",
+          "nodes": 600,
+          "links": 1476,
+          "count": 600
+        },
+        {
+          "name": "文学分析（2/6）",
+          "file": "文学_文学分析_part2.json",
+          "nodes": 600,
+          "links": 791,
+          "count": 600
+        },
+        {
+          "name": "文学分析（3/6）",
+          "file": "文学_文学分析_part3.json",
+          "nodes": 600,
+          "links": 690,
+          "count": 600
+        },
+        {
+          "name": "文学分析（4/6）",
+          "file": "文学_文学分析_part4.json",
+          "nodes": 600,
+          "links": 774,
+          "count": 600
+        },
+        {
+          "name": "文学分析（5/6）",
+          "file": "文学_文学分析_part5.json",
+          "nodes": 600,
+          "links": 482,
+          "count": 600
+        },
+        {
+          "name": "文学分析（6/6）",
+          "file": "文学_文学分析_part6.json",
+          "nodes": 254,
+          "links": 77,
+          "count": 254
+        },
+        {
+          "name": "文学批评",
+          "file": "文学_文学批评.json",
+          "nodes": 70,
+          "links": 97,
+          "count": 70
+        },
+        {
+          "name": "文学理论",
+          "file": "文学_文学理论.json",
+          "nodes": 30,
+          "links": 45,
+          "count": 30
+        },
+        {
+          "name": "文学研究",
+          "file": "文学_文学研究.json",
+          "nodes": 84,
+          "links": 122,
+          "count": 84
+        },
+        {
+          "name": "文学经典",
+          "file": "文学_文学经典.json",
+          "nodes": 33,
+          "links": 62,
+          "count": 33
+        },
+        {
+          "name": "文学解读",
+          "file": "文学_文学解读.json",
+          "nodes": 40,
+          "links": 68,
+          "count": 40
+        },
+        {
+          "name": "文学评论",
+          "file": "文学_文学评论.json",
+          "nodes": 482,
+          "links": 781,
+          "count": 482
+        },
+        {
+          "name": "文学赏析",
+          "file": "文学_文学赏析.json",
+          "nodes": 72,
+          "links": 121,
+          "count": 72
+        },
+        {
+          "name": "文学鉴赏",
+          "file": "文学_文学鉴赏.json",
+          "nodes": 82,
+          "links": 183,
+          "count": 82
+        },
+        {
+          "name": "文学阅读",
+          "file": "文学_文学阅读.json",
+          "nodes": 78,
+          "links": 117,
+          "count": 78
+        },
+        {
+          "name": "旅行文学",
+          "file": "文学_旅行文学.json",
+          "nodes": 42,
+          "links": 97,
+          "count": 42
+        },
+        {
+          "name": "日本文学",
+          "file": "文学_日本文学.json",
+          "nodes": 98,
+          "links": 177,
+          "count": 98
+        },
+        {
+          "name": "武侠文学",
+          "file": "文学_武侠文学.json",
+          "nodes": 30,
+          "links": 81,
+          "count": 30
+        },
+        {
+          "name": "科幻文学",
+          "file": "文学_科幻文学.json",
+          "nodes": 175,
+          "links": 305,
+          "count": 175
+        },
+        {
+          "name": "科幻文学分析",
+          "file": "文学_科幻文学分析.json",
+          "nodes": 60,
+          "links": 109,
+          "count": 60
+        },
+        {
+          "name": "网络文学分析",
+          "file": "文学_网络文学分析.json",
+          "nodes": 34,
+          "links": 34,
+          "count": 34
+        },
+        {
+          "name": "艺术鉴赏",
+          "file": "文学_艺术鉴赏.json",
+          "nodes": 44,
+          "links": 97,
+          "count": 44
+        },
+        {
+          "name": "非虚构文学",
+          "file": "文学_非虚构文学.json",
+          "nodes": 30,
+          "links": 65,
+          "count": 30
+        }
+      ]
+    },
+    {
+      "domain": "时尚生活",
+      "color": "#f9a8d4",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "时尚生活.json",
+          "nodes": 71,
+          "links": 191,
+          "count": 71
+        }
+      ]
+    },
+    {
+      "domain": "未知",
+      "color": "#94a3b8",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "未知.json",
+          "nodes": 16,
+          "links": 1,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "domain": "法学",
+      "color": "#fcd34d",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "法学.json",
+          "nodes": 66,
+          "links": 130,
+          "count": 66
+        }
+      ]
+    },
+    {
+      "domain": "社会学",
+      "color": "#6366f1",
+      "pages": [
+        {
+          "name": "(其他)（1/2）",
+          "file": "社会学_(其他)_part1.json",
+          "nodes": 600,
+          "links": 1380,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/2）",
+          "file": "社会学_(其他)_part2.json",
+          "nodes": 484,
+          "links": 653,
+          "count": 484
+        },
+        {
+          "name": "文化研究",
+          "file": "社会学_文化研究.json",
+          "nodes": 57,
+          "links": 91,
+          "count": 57
+        },
+        {
+          "name": "社会学",
+          "file": "社会学_社会学.json",
+          "nodes": 86,
+          "links": 160,
+          "count": 86
+        }
+      ]
+    },
+    {
+      "domain": "科学",
+      "color": "#f97316",
+      "pages": [
+        {
+          "name": "(其他)（1/2）",
+          "file": "科学_(其他)_part1.json",
+          "nodes": 600,
+          "links": 1249,
+          "count": 600
+        },
+        {
+          "name": "(其他)（2/2）",
+          "file": "科学_(其他)_part2.json",
+          "nodes": 116,
+          "links": 106,
+          "count": 116
+        },
+        {
+          "name": "医学人文",
+          "file": "科学_医学人文.json",
+          "nodes": 33,
+          "links": 59,
+          "count": 33
+        },
+        {
+          "name": "神经科学",
+          "file": "科学_神经科学.json",
+          "nodes": 56,
+          "links": 134,
+          "count": 56
+        }
+      ]
+    },
+    {
+      "domain": "编程",
+      "color": "#818cf8",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "编程.json",
+          "nodes": 151,
+          "links": 589,
+          "count": 151
+        }
+      ]
+    },
+    {
+      "domain": "艺术",
+      "color": "#e879f9",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "艺术.json",
+          "nodes": 365,
+          "links": 744,
+          "count": 365
+        }
+      ]
+    },
+    {
+      "domain": "英语",
+      "color": "#f472b6",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "英语.json",
+          "nodes": 209,
+          "links": 1683,
+          "count": 209
+        }
+      ]
+    },
+    {
+      "domain": "语言文学",
+      "color": "#d8b4fe",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "语言文学.json",
+          "nodes": 43,
+          "links": 104,
+          "count": 43
+        }
+      ]
+    },
+    {
+      "domain": "金融",
+      "color": "#a3e635",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "金融.json",
+          "nodes": 208,
+          "links": 387,
+          "count": 208
+        }
+      ]
+    },
+    {
+      "domain": "雅思",
+      "color": "#22d3ee",
+      "pages": [
+        {
+          "name": "(全部)",
+          "file": "雅思.json",
+          "nodes": 511,
+          "links": 31719,
+          "count": 511
+        }
+      ]
+    }
+  ],
+  "generated_at": ""
+}

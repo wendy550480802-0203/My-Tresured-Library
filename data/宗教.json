@@ -1,0 +1,743 @@
+{
+  "page_name": "宗教",
+  "domain": "宗教",
+  "sub_domain": "(全部)",
+  "nodes": [
+    {
+      "id": "努力进窄门.md",
+      "label": "努力进窄门",
+      "title": "努力进窄门",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教信仰",
+      "domain": "宗教",
+      "sub_domain": "基督教信仰",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。要点1：属灵生命的十个关键自省问题。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实",
+      "keywords": [
+        "基督徒",
+        "进窄门",
+        "神同行",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教信仰",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教信仰/努力进窄门.md"
+    },
+    {
+      "id": "自我欺骗.md",
+      "label": "自我欺骗",
+      "title": "自我欺骗",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教信仰",
+      "domain": "宗教",
+      "sub_domain": "基督教信仰",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。洞察1：属灵生命的“自我欺骗”与心理学中的认知失调。莱尔十个自省问题，本质上是帮助读者打破“自我欺骗”的心理机制",
+      "keywords": [
+        "基督徒",
+        "自我欺骗"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教信仰",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教信仰/自我欺骗.md"
+    },
+    {
+      "id": "圣洁生活.md",
+      "label": "圣洁生活",
+      "title": "圣洁生活",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教信仰",
+      "domain": "宗教",
+      "sub_domain": "基督教信仰",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。要点1：属灵生命的十个关键自省问题。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实",
+      "keywords": [
+        "基督徒",
+        "神同行",
+        "进窄门",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教信仰",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教信仰/圣洁生活.md"
+    },
+    {
+      "id": "属灵自省.md",
+      "label": "属灵自省",
+      "title": "属灵自省",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教信仰",
+      "domain": "宗教",
+      "sub_domain": "基督教信仰",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。要点1：属灵生命的十个关键自省问题。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实",
+      "keywords": [
+        "基督徒",
+        "神同行",
+        "进窄门",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教信仰",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教信仰/属灵自省.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "基督教信仰",
+      "title": "基督教信仰",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教信仰",
+      "domain": "宗教",
+      "sub_domain": "基督教信仰",
+      "summary": "> 本页面自动汇总「宗教 > 基督教信仰」下的所有笔记。笔记总数: $= dv.pages('\"宗教/基督教信仰\"').length。概念笔记: $= dv.pages('\"宗教/基督教信仰\"').where(p => p.type === \"concept\").length。最后更新: $= moment(dv.pages('\"宗教/基督教信仰\"').sort(p => p.updated, 'desc').first()?.updated).format('YYYY-MM-DD')。> 笔记总数: $= dv.pages('\"宗教/基督教信仰\"').length 个",
+      "keywords": [
+        "笔记总数",
+        "基督教信",
+        "教信仰",
+        "概念笔记"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教信仰",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教信仰/INDEX.md"
+    },
+    {
+      "id": "窄门救恩.md",
+      "label": "窄门救恩",
+      "title": "窄门救恩",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教信仰",
+      "domain": "宗教",
+      "sub_domain": "基督教信仰",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实。莱尔强调得救的唯一道路是“窄门”——即唯独借着信靠耶稣基督代赎的救恩",
+      "keywords": [
+        "基督徒",
+        "神同行",
+        "进窄门",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教信仰",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教信仰/窄门救恩.md"
+    },
+    {
+      "id": "关系界限.md",
+      "label": "关系界限",
+      "title": "关系界限",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教婚前交往",
+      "domain": "宗教",
+      "sub_domain": "基督教婚前交往",
+      "summary": "书名：当男孩遇见女孩（Boy Meets Girl）。作者：约书亚·哈里斯(Joshua Harris)著；叶婵芬/译。核心主题：本书以圣经原则为根基，探讨基督徒在预备进入婚姻的过程中，如何以神为中心、有目标、有智慧地进行“婚前交往”，取代世俗的约会文化，从而建立纯洁、荣耀神的关系。作者分享了自己从《不再约会》一书所倡导的“停止约会”到本书所探讨的“婚前交往”的心路历程。他意识到，停止约会是为了避免无意义的浪漫关系，但当一个人预备好进入婚姻时，需要一种有目标、有方向、有群体支持的交往方式",
+      "keywords": [
+        "婚前交往",
+        "预备好"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教婚前交往",
+        "type/concept",
+        "source/当男孩遇见女孩（Boy Meets Girl）"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/关系界限.md"
+    },
+    {
+      "id": "神中心的关系.md",
+      "label": "神中心的关系",
+      "title": "神中心的关系",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教婚前交往",
+      "domain": "宗教",
+      "sub_domain": "基督教婚前交往",
+      "summary": "书名：当男孩遇见女孩（Boy Meets Girl）。作者：约书亚·哈里斯(Joshua Harris)著；叶婵芬/译。核心主题：本书以圣经原则为根基，探讨基督徒在预备进入婚姻的过程中，如何以神为中心、有目标、有智慧地进行“婚前交往”，取代世俗的约会文化，从而建立纯洁、荣耀神的关系。作者分享了自己从《不再约会》一书所倡导的“停止约会”到本书所探讨的“婚前交往”的心路历程。他意识到，停止约会是为了避免无意义的浪漫关系，但当一个人预备好进入婚姻时，需要一种有目标、有方向、有群体支持的交往方式",
+      "keywords": [
+        "婚前交往",
+        "预备好"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教婚前交往",
+        "type/concept",
+        "source/当男孩遇见女孩（Boy Meets Girl）"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/神中心的关系.md"
+    },
+    {
+      "id": "持守纯洁.md",
+      "label": "持守纯洁",
+      "title": "持守纯洁",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教婚前交往",
+      "domain": "宗教",
+      "sub_domain": "基督教婚前交往",
+      "summary": "书名：当男孩遇见女孩（Boy Meets Girl）。作者：约书亚·哈里斯(Joshua Harris)著；叶婵芬/译。核心主题：本书以圣经原则为根基，探讨基督徒在预备进入婚姻的过程中，如何以神为中心、有目标、有智慧地进行“婚前交往”，取代世俗的约会文化，从而建立纯洁、荣耀神的关系。作者分享了自己从《不再约会》一书所倡导的“停止约会”到本书所探讨的“婚前交往”的心路历程。他意识到，停止约会是为了避免无意义的浪漫关系，但当一个人预备好进入婚姻时，需要一种有目标、有方向、有群体支持的交往方式",
+      "keywords": [
+        "婚前交往",
+        "预备好"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教婚前交往",
+        "type/concept",
+        "source/当男孩遇见女孩（Boy Meets Girl）"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/持守纯洁.md"
+    },
+    {
+      "id": "群体智慧.md",
+      "label": "群体智慧",
+      "title": "群体智慧",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教婚前交往",
+      "domain": "宗教",
+      "sub_domain": "基督教婚前交往",
+      "summary": "书名：当男孩遇见女孩（Boy Meets Girl）。作者：约书亚·哈里斯(Joshua Harris)著；叶婵芬/译。核心主题：本书以圣经原则为根基，探讨基督徒在预备进入婚姻的过程中，如何以神为中心、有目标、有智慧地进行“婚前交往”，取代世俗的约会文化，从而建立纯洁、荣耀神的关系。作者分享了自己从《不再约会》一书所倡导的“停止约会”到本书所探讨的“婚前交往”的心路历程。他意识到，停止约会是为了避免无意义的浪漫关系，但当一个人预备好进入婚姻时，需要一种有目标、有方向、有群体支持的交往方式",
+      "keywords": [
+        "婚前交往",
+        "群体智"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教婚前交往",
+        "type/concept",
+        "source/当男孩遇见女孩（Boy Meets Girl）"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/群体智慧.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "基督教婚前交往",
+      "title": "基督教婚前交往",
+      "type": "book",
+      "degree": 5,
+      "cluster": "宗教",
+      "domain": "宗教",
+      "sub_domain": "宗教",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "基督教",
+        "督教婚",
+        "教婚前",
+        "婚前交",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/宗教",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/INDEX.md"
+    },
+    {
+      "id": "婚前交往.md",
+      "label": "婚前交往",
+      "title": "婚前交往",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教婚前交往",
+      "domain": "宗教",
+      "sub_domain": "基督教婚前交往",
+      "summary": "书名：当男孩遇见女孩（Boy Meets Girl）。作者：约书亚·哈里斯(Joshua Harris)著；叶婵芬/译。核心主题：本书以圣经原则为根基，探讨基督徒在预备进入婚姻的过程中，如何以神为中心、有目标、有智慧地进行“婚前交往”，取代世俗的约会文化，从而建立纯洁、荣耀神的关系。作者分享了自己从《不再约会》一书所倡导的“停止约会”到本书所探讨的“婚前交往”的心路历程。他意识到，停止约会是为了避免无意义的浪漫关系，但当一个人预备好进入婚姻时，需要一种有目标、有方向、有群体支持的交往方式",
+      "keywords": [
+        "婚前交往",
+        "预备好"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教婚前交往",
+        "type/concept",
+        "source/当男孩遇见女孩（Boy Meets Girl）"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/婚前交往.md"
+    },
+    {
+      "id": "以神为中心.md",
+      "label": "以神为中心",
+      "title": "以神为中心",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教婚前交往",
+      "domain": "宗教",
+      "sub_domain": "基督教婚前交往",
+      "summary": "书名：当男孩遇见女孩（Boy Meets Girl）。作者：约书亚·哈里斯(Joshua Harris)著；叶婵芬/译。核心主题：本书以圣经原则为根基，探讨基督徒在预备进入婚姻的过程中，如何以神为中心、有目标、有智慧地进行“婚前交往”，取代世俗的约会文化，从而建立纯洁、荣耀神的关系。作者分享了自己从《不再约会》一书所倡导的“停止约会”到本书所探讨的“婚前交往”的心路历程。他意识到，停止约会是为了避免无意义的浪漫关系，但当一个人预备好进入婚姻时，需要一种有目标、有方向、有群体支持的交往方式",
+      "keywords": [
+        "婚前交往",
+        "预备好"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教婚前交往",
+        "type/concept",
+        "source/当男孩遇见女孩（Boy Meets Girl）"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教婚前交往/以神为中心.md"
+    },
+    {
+      "id": "努力进窄门.md",
+      "label": "努力进窄门",
+      "title": "努力进窄门",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教灵修",
+      "domain": "宗教",
+      "sub_domain": "基督教灵修",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。要点1：属灵生命的十个关键自省问题。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实",
+      "keywords": [
+        "基督徒",
+        "进窄门",
+        "神同行",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教灵修",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教灵修/努力进窄门.md"
+    },
+    {
+      "id": "自我欺骗.md",
+      "label": "自我欺骗",
+      "title": "自我欺骗",
+      "type": "book",
+      "degree": 2,
+      "cluster": "基督教灵修",
+      "domain": "宗教",
+      "sub_domain": "基督教灵修",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。洞察1：属灵生命的“自我欺骗”与心理学中的认知失调。莱尔十个自省问题，本质上是帮助读者打破“自我欺骗”的心理机制",
+      "keywords": [
+        "基督徒",
+        "自我欺骗"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教灵修",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教灵修/自我欺骗.md"
+    },
+    {
+      "id": "圣洁生活.md",
+      "label": "圣洁生活",
+      "title": "圣洁生活",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教灵修",
+      "domain": "宗教",
+      "sub_domain": "基督教灵修",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。要点1：属灵生命的十个关键自省问题。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实",
+      "keywords": [
+        "基督徒",
+        "神同行",
+        "进窄门",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教灵修",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教灵修/圣洁生活.md"
+    },
+    {
+      "id": "属灵自省.md",
+      "label": "属灵自省",
+      "title": "属灵自省",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教灵修",
+      "domain": "宗教",
+      "sub_domain": "基督教灵修",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。要点1：属灵生命的十个关键自省问题。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实",
+      "keywords": [
+        "基督徒",
+        "神同行",
+        "进窄门",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教灵修",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教灵修/属灵自省.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "基督教灵修",
+      "title": "基督教灵修",
+      "type": "book",
+      "degree": 3,
+      "cluster": "宗教",
+      "domain": "宗教",
+      "sub_domain": "宗教",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "基督教灵",
+        "教灵修",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/宗教",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教灵修/INDEX.md"
+    },
+    {
+      "id": "窄门救恩.md",
+      "label": "窄门救恩",
+      "title": "窄门救恩",
+      "type": "book",
+      "degree": 4,
+      "cluster": "基督教灵修",
+      "domain": "宗教",
+      "sub_domain": "基督教灵修",
+      "summary": "作者：莱尔（John Charles Ryle，1816-1900），英国圣公会利物浦会督，19世纪福音派代表人物。核心主题：通过十个关键问题的自省和“努力进窄门”的呼召，引导读者审视自己的属灵生命状态，悔改归向基督，并活出真实、圣洁的基督徒生活。适合人群：基督徒、寻求信仰真理者、对自我生命状态有反思需求的人、神学生及牧者。莱尔提出十个直击灵魂的问题，帮助读者评估自己与神的关系是否真实。莱尔强调得救的唯一道路是“窄门”——即唯独借着信靠耶稣基督代赎的救恩",
+      "keywords": [
+        "基督徒",
+        "神同行",
+        "进窄门",
+        "属灵生"
+      ],
+      "tags": [
+        "domain/宗教",
+        "sub_domain/基督教灵修",
+        "type/concept",
+        "source/与神同行"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/宗教/基督教灵修/窄门救恩.md"
+    }
+  ],
+  "links": [
+    {
+      "source": "努力进窄门.md",
+      "target": "圣洁生活.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "努力进窄门.md",
+      "target": "属灵自省.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "努力进窄门.md",
+      "target": "窄门救恩.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "努力进窄门.md",
+      "target": "努力进窄门.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "自我欺骗.md",
+      "target": "自我欺骗.md",
+      "value": 2,
+      "shared": [
+        "基督徒",
+        "自我欺骗"
+      ]
+    },
+    {
+      "source": "圣洁生活.md",
+      "target": "属灵自省.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "圣洁生活.md",
+      "target": "窄门救恩.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "圣洁生活.md",
+      "target": "圣洁生活.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "属灵自省.md",
+      "target": "窄门救恩.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "属灵自省.md",
+      "target": "属灵自省.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "INDEX.md",
+      "target": "INDEX.md",
+      "value": 3,
+      "shared": [
+        "笔记总数",
+        "教灵修",
+        "基督教灵"
+      ]
+    },
+    {
+      "source": "窄门救恩.md",
+      "target": "窄门救恩.md",
+      "value": 4,
+      "shared": [
+        "进窄门",
+        "神同行",
+        "基督徒",
+        "属灵生"
+      ]
+    },
+    {
+      "source": "关系界限.md",
+      "target": "神中心的关系.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "关系界限.md",
+      "target": "持守纯洁.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "关系界限.md",
+      "target": "婚前交往.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "关系界限.md",
+      "target": "以神为中心.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "神中心的关系.md",
+      "target": "持守纯洁.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "神中心的关系.md",
+      "target": "婚前交往.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "神中心的关系.md",
+      "target": "以神为中心.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "持守纯洁.md",
+      "target": "婚前交往.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "持守纯洁.md",
+      "target": "以神为中心.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    },
+    {
+      "source": "婚前交往.md",
+      "target": "以神为中心.md",
+      "value": 2,
+      "shared": [
+        "预备好",
+        "婚前交往"
+      ]
+    }
+  ],
+  "search_data": [
+    {
+      "id": "努力进窄门.md",
+      "label": "努力进窄门"
+    },
+    {
+      "id": "自我欺骗.md",
+      "label": "自我欺骗"
+    },
+    {
+      "id": "圣洁生活.md",
+      "label": "圣洁生活"
+    },
+    {
+      "id": "属灵自省.md",
+      "label": "属灵自省"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "基督教信仰"
+    },
+    {
+      "id": "窄门救恩.md",
+      "label": "窄门救恩"
+    },
+    {
+      "id": "关系界限.md",
+      "label": "关系界限"
+    },
+    {
+      "id": "神中心的关系.md",
+      "label": "神中心的关系"
+    },
+    {
+      "id": "持守纯洁.md",
+      "label": "持守纯洁"
+    },
+    {
+      "id": "群体智慧.md",
+      "label": "群体智慧"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "基督教婚前交往"
+    },
+    {
+      "id": "婚前交往.md",
+      "label": "婚前交往"
+    },
+    {
+      "id": "以神为中心.md",
+      "label": "以神为中心"
+    },
+    {
+      "id": "努力进窄门.md",
+      "label": "努力进窄门"
+    },
+    {
+      "id": "自我欺骗.md",
+      "label": "自我欺骗"
+    },
+    {
+      "id": "圣洁生活.md",
+      "label": "圣洁生活"
+    },
+    {
+      "id": "属灵自省.md",
+      "label": "属灵自省"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "基督教灵修"
+    },
+    {
+      "id": "窄门救恩.md",
+      "label": "窄门救恩"
+    }
+  ],
+  "total_notes": 19,
+  "sampled_nodes": 19
+}

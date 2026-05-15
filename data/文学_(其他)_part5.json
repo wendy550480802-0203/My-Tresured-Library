@@ -1,0 +1,838 @@
+{
+  "page_name": "文学 - (其他)（5/5）",
+  "domain": "文学",
+  "sub_domain": "(其他)（5/5）",
+  "nodes": [
+    {
+      "id": "INDEX.md",
+      "label": "阅读与人生",
+      "title": "阅读与人生",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "阅读与人生",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读与人生/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "诗歌与灵性",
+      "title": "诗歌与灵性",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "诗歌与灵性",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/诗歌与灵性/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与创业",
+      "title": "文学与创业",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与创业",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与创业/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与成长",
+      "title": "文学与成长",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与成长",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与成长/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "写作与创作",
+      "title": "写作与创作",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "写作与创作",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/写作与创作/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与灵性",
+      "title": "文学与灵性",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与灵性",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与灵性/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与写作",
+      "title": "文学与写作",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与写作",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与写作/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与哲学",
+      "title": "文学与哲学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与哲学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与哲学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与奇幻",
+      "title": "文学与奇幻",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与奇幻",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与奇幻/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "阅读与文学",
+      "title": "阅读与文学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "阅读与文学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读与文学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与诗歌",
+      "title": "文学与诗歌",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与诗歌",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与诗歌/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "阅读与藏书",
+      "title": "阅读与藏书",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "阅读与藏书",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读与藏书/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "诗歌与哲学",
+      "title": "诗歌与哲学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "诗歌与哲学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/诗歌与哲学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与推理",
+      "title": "文学与推理",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与推理",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与推理/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "绘本与文学",
+      "title": "绘本与文学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "绘本与文学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/绘本与文学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "哲学与文学",
+      "title": "哲学与文学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "哲学与文学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/哲学与文学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与翻译",
+      "title": "文学与翻译",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与翻译",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与翻译/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与生活",
+      "title": "文学与生活",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与生活",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与生活/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与佛学",
+      "title": "文学与佛学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与佛学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与佛学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与自传",
+      "title": "文学与自传",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与自传",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与自传/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与民俗",
+      "title": "文学与民俗",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与民俗",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与民俗/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与人性",
+      "title": "文学与人性",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与人性",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与人性/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与创作",
+      "title": "文学与创作",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与创作",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与创作/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与伦理",
+      "title": "文学与伦理",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与伦理",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与伦理/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与传记",
+      "title": "文学与传记",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与传记",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与传记/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与思想",
+      "title": "文学与思想",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与思想",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与思想/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与叙事",
+      "title": "文学与叙事",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与叙事",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与叙事/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与旅行",
+      "title": "文学与旅行",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与旅行",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与旅行/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与教育",
+      "title": "文学与教育",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与教育",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与教育/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与公益",
+      "title": "文学与公益",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与公益",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与公益/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与诗学",
+      "title": "文学与诗学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与诗学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与诗学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与悬疑",
+      "title": "文学与悬疑",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与悬疑",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与悬疑/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与人文",
+      "title": "文学与人文",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与人文",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与人文/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与出版",
+      "title": "文学与出版",
+      "type": "book",
+      "degree": 2,
+      "cluster": "文学",
+      "domain": "文学",
+      "sub_domain": "文学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与出版",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/文学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/文学与出版/INDEX.md"
+    }
+  ],
+  "links": [
+    {
+      "source": "INDEX.md",
+      "target": "INDEX.md",
+      "value": 2,
+      "shared": [
+        "笔记总数",
+        "文学与出版"
+      ]
+    }
+  ],
+  "search_data": [
+    {
+      "id": "INDEX.md",
+      "label": "阅读与人生"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "诗歌与灵性"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与创业"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与成长"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "写作与创作"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与灵性"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与写作"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与哲学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与奇幻"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "阅读与文学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与诗歌"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "阅读与藏书"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "诗歌与哲学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与推理"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "绘本与文学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "哲学与文学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与翻译"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与生活"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与佛学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与自传"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与民俗"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与人性"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与创作"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与伦理"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与传记"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与思想"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与叙事"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与旅行"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与教育"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与公益"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与诗学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与悬疑"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与人文"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与出版"
+    }
+  ],
+  "total_notes": 34,
+  "sampled_nodes": 34
+}
