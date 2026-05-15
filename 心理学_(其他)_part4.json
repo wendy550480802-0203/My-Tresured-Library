@@ -1,0 +1,1752 @@
+{
+  "page_name": "心理学 - (其他)（4/4）",
+  "domain": "心理学",
+  "sub_domain": "(其他)（4/4）",
+  "nodes": [
+    {
+      "id": "INDEX.md",
+      "label": "情绪管理",
+      "title": "情绪管理",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "情绪管理",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/情绪管理/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "群体心理学",
+      "title": "群体心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "群体心理",
+        "体心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/群体心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "人生态度与心理学",
+      "title": "人生态度与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "人生态度",
+        "度与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/人生态度与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理咨询",
+      "title": "心理咨询",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "心理咨询",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/心理咨询/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "职场沟通",
+      "title": "职场沟通",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "职场沟通",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/职场沟通/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "女性主义",
+      "title": "女性主义",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "女性主义",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/女性主义/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人成长与心理学",
+      "title": "个人成长与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "个人成长",
+        "长与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/个人成长与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "职场心理",
+      "title": "职场心理",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "职场心理",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/职场心理/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "恋爱技巧",
+      "title": "恋爱技巧",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "恋爱技巧",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/恋爱技巧/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "职场成长与心理",
+      "title": "职场成长与心理",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "职场成长",
+        "长与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/职场成长与心理/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "精神分析",
+      "title": "精神分析",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "精神分析",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/精神分析/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "社交情商",
+      "title": "社交情商",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "社交情商",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/社交情商/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人效能",
+      "title": "个人效能",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "个人效能",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/个人效能/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "认知心理学",
+      "title": "认知心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "认知心理",
+        "知心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/认知心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理学与文学",
+      "title": "心理学与文学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "心理学与文",
+        "学与文学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/心理学与文学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学创作与心理学",
+      "title": "文学创作与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学创作",
+        "作与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学创作与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "销售效率",
+      "title": "销售效率",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "销售效率",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/销售效率/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "社交心理学",
+      "title": "社交心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "社交心理",
+        "交心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/社交心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "社会心理学",
+      "title": "社会心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "社会心理",
+        "会心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/社会心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "网络心理学",
+      "title": "网络心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "网络心理",
+        "络心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/网络心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "性格分析",
+      "title": "性格分析",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "性格分析",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/性格分析/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "情感关系与心理",
+      "title": "情感关系与心理",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "情感关系",
+        "系与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/情感关系与心理/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "决策心理学",
+      "title": "决策心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "决策心理",
+        "策心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/决策心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "演化心理学",
+      "title": "演化心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "演化心理",
+        "化心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/演化心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人成长与情感",
+      "title": "个人成长与情感",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "个人成长",
+        "长与情",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/个人成长与情感/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人理财与心理学",
+      "title": "个人理财与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "个人理财",
+        "财与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/个人理财与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学分析与心理学",
+      "title": "文学分析与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学分析",
+        "析与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学分析与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "医学认知与决策",
+      "title": "医学认知与决策",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "医学认知",
+        "知与决",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/医学认知与决策/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "精神政治学",
+      "title": "精神政治学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "精神政治",
+        "政治学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/精神政治学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理学与哲学",
+      "title": "心理学与哲学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "心理学与哲",
+        "学与哲学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/心理学与哲学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "认知科学",
+      "title": "认知科学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "认知科学",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/认知科学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学心理学",
+      "title": "文学心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学心理",
+        "学心理学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "青春文学与心理学",
+      "title": "青春文学与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "青春文学",
+        "学与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/青春文学与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "两性社交与沟通",
+      "title": "两性社交与沟通",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "两性社交",
+        "交与沟",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/两性社交与沟通/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "自我成长与心理学",
+      "title": "自我成长与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "自我成长",
+        "长与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/自我成长与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通谈判",
+      "title": "沟通谈判",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通谈判",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通谈判/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理治疗",
+      "title": "心理治疗",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "心理治疗",
+        "笔记总数",
+        "更新时"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/心理治疗/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "科幻文学与心理学",
+      "title": "科幻文学与心理学",
+      "type": "book",
+      "degree": 3,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "科幻文学",
+        "学与心",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/科幻文学与心理学/INDEX.md"
+    },
+    {
+      "id": "描述性语法.md",
+      "label": "描述性语法",
+      "title": "描述性语法",
+      "type": "book",
+      "degree": 1,
+      "cluster": "写作与认知",
+      "domain": "心理学",
+      "sub_domain": "写作与认知",
+      "summary": "《The Sense of Style》的核心论点是：优秀的写作风格并非源于对语法教条的机械服从，而是源于对读者认知过程的深刻理解与尊重。作者Steven Pinker（认知科学家、语言学家）主张，写作的本质是一种“可理解的交流”，其目标不是“遵守规则”或“展示文采”，而是以最低的认知成本将思想准确传递到读者脑中。他反对将语言规范视为不可挑战的“语言律法”，认为许多传统写作指南（如Strunk & White的《The Elements of Style》）中的规则是过时、武断甚至有害的，因为它们忽略了语言的自然心理机制。Pinker区分了“描述性语法”（语言学家总结的、人们实际如何使用的规则",
+      "keywords": [
+        "知识的诅咒"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/写作与认知",
+        "type/concept",
+        "source/The Sense of Style_四层笔记"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/写作与认知/描述性语法.md"
+    },
+    {
+      "id": "认知共情.md",
+      "label": "认知共情",
+      "title": "认知共情",
+      "type": "book",
+      "degree": 1,
+      "cluster": "写作与认知",
+      "domain": "心理学",
+      "sub_domain": "写作与认知",
+      "summary": "《The Sense of Style》的核心论点是：优秀的写作风格并非源于对语法教条的机械服从，而是源于对读者认知过程的深刻理解与尊重。作者Steven Pinker（认知科学家、语言学家）主张，写作的本质是一种“可理解的交流”，其目标不是“遵守规则”或“展示文采”，而是以最低的认知成本将思想准确传递到读者脑中。他反对将语言规范视为不可挑战的“语言律法”，认为许多传统写作指南（如Strunk & White的《The Elements of Style》）中的规则是过时、武断甚至有害的，因为它们忽略了语言的自然心理机制。Pinker区分了“描述性语法”（语言学家总结的、人们实际如何使用的规则",
+      "keywords": [
+        "知识的诅咒"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/写作与认知",
+        "type/concept",
+        "source/The Sense of Style_四层笔记"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/写作与认知/认知共情.md"
+    },
+    {
+      "id": "老信息-新信息原则.md",
+      "label": "老信息-新信息原则",
+      "title": "老信息-新信息原则",
+      "type": "book",
+      "degree": 1,
+      "cluster": "写作与认知",
+      "domain": "心理学",
+      "sub_domain": "写作与认知",
+      "summary": "《The Sense of Style》的核心论点是：优秀的写作风格并非源于对语法教条的机械服从，而是源于对读者认知过程的深刻理解与尊重。作者Steven Pinker（认知科学家、语言学家）主张，写作的本质是一种“可理解的交流”，其目标不是“遵守规则”或“展示文采”，而是以最低的认知成本将思想准确传递到读者脑中。他反对将语言规范视为不可挑战的“语言律法”，认为许多传统写作指南（如Strunk & White的《The Elements of Style》）中的规则是过时、武断甚至有害的，因为它们忽略了语言的自然心理机制。Pinker区分了“描述性语法”（语言学家总结的、人们实际如何使用的规则",
+      "keywords": [
+        "知识的诅咒"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/写作与认知",
+        "type/concept",
+        "source/The Sense of Style_四层笔记"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/写作与认知/老信息-新信息原则.md"
+    },
+    {
+      "id": "知识的诅咒.md",
+      "label": "知识的诅咒",
+      "title": "知识的诅咒",
+      "type": "book",
+      "degree": 1,
+      "cluster": "写作与认知",
+      "domain": "心理学",
+      "sub_domain": "写作与认知",
+      "summary": "《The Sense of Style》的核心论点是：优秀的写作风格并非源于对语法教条的机械服从，而是源于对读者认知过程的深刻理解与尊重。作者Steven Pinker（认知科学家、语言学家）主张，写作的本质是一种“可理解的交流”，其目标不是“遵守规则”或“展示文采”，而是以最低的认知成本将思想准确传递到读者脑中。他反对将语言规范视为不可挑战的“语言律法”，认为许多传统写作指南（如Strunk & White的《The Elements of Style》）中的规则是过时、武断甚至有害的，因为它们忽略了语言的自然心理机制。Pinker区分了“描述性语法”（语言学家总结的、人们实际如何使用的规则",
+      "keywords": [
+        "知识的诅咒"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/写作与认知",
+        "type/concept",
+        "source/The Sense of Style_四层笔记"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/写作与认知/知识的诅咒.md"
+    },
+    {
+      "id": "名词化.md",
+      "label": "名词化",
+      "title": "名词化",
+      "type": "book",
+      "degree": 1,
+      "cluster": "写作与认知",
+      "domain": "心理学",
+      "sub_domain": "写作与认知",
+      "summary": "《The Sense of Style》的核心论点是：优秀的写作风格并非源于对语法教条的机械服从，而是源于对读者认知过程的深刻理解与尊重。作者Steven Pinker（认知科学家、语言学家）主张，写作的本质是一种“可理解的交流”，其目标不是“遵守规则”或“展示文采”，而是以最低的认知成本将思想准确传递到读者脑中。他反对将语言规范视为不可挑战的“语言律法”，认为许多传统写作指南（如Strunk & White的《The Elements of Style》）中的规则是过时、武断甚至有害的，因为它们忽略了语言的自然心理机制。Pinker区分了“描述性语法”（语言学家总结的、人们实际如何使用的规则",
+      "keywords": [
+        "知识的诅咒"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/写作与认知",
+        "type/concept",
+        "source/The Sense of Style_四层笔记"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/写作与认知/名词化.md"
+    },
+    {
+      "id": "偷窥心理动机.md",
+      "label": "偷窥心理动机",
+      "title": "偷窥心理动机",
+      "type": "book",
+      "degree": 1,
+      "cluster": "法医文学与人性心理学",
+      "domain": "心理学",
+      "sub_domain": "法医文学与人性心理学",
+      "summary": "核心主题：通过法医破案故事，揭露人性中光明与黑暗的两面性，探讨“偷窥”这一行为背后的心理动机与社会根源，同时展现法医工作者在恶劣环境中坚守职业使命的奉献精神。适合人群：悬疑推理小说爱好者；对法医职业、犯罪心理学感兴趣的读者；关注社会人性议题的普通读者；法医学专业学生及从业者。要点1：法医职业的现实困境与精神坚守。要点2：人性中的光明与黑暗仅一念之差。例如，左怜被囚禁的遭遇，暗示了“偷窥”这一行为如何从心理越界演变为实际犯罪",
+      "keywords": [
+        "光明与黑暗"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/法医文学与人性心理学",
+        "type/concept",
+        "source/偷窥者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/法医文学与人性心理学/偷窥心理动机.md"
+    },
+    {
+      "id": "人性光明与黑暗.md",
+      "label": "人性光明与黑暗",
+      "title": "人性光明与黑暗",
+      "type": "book",
+      "degree": 1,
+      "cluster": "法医文学与人性心理学",
+      "domain": "心理学",
+      "sub_domain": "法医文学与人性心理学",
+      "summary": "核心主题：通过法医破案故事，揭露人性中光明与黑暗的两面性，探讨“偷窥”这一行为背后的心理动机与社会根源，同时展现法医工作者在恶劣环境中坚守职业使命的奉献精神。适合人群：悬疑推理小说爱好者；对法医职业、犯罪心理学感兴趣的读者；关注社会人性议题的普通读者；法医学专业学生及从业者。要点1：法医职业的现实困境与精神坚守。要点2：人性中的光明与黑暗仅一念之差。例如，左怜被囚禁的遭遇，暗示了“偷窥”这一行为如何从心理越界演变为实际犯罪",
+      "keywords": [
+        "光明与黑暗"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/法医文学与人性心理学",
+        "type/concept",
+        "source/偷窥者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/法医文学与人性心理学/人性光明与黑暗.md"
+    },
+    {
+      "id": "科学推理思维.md",
+      "label": "科学推理思维",
+      "title": "科学推理思维",
+      "type": "book",
+      "degree": 1,
+      "cluster": "法医文学与人性心理学",
+      "domain": "心理学",
+      "sub_domain": "法医文学与人性心理学",
+      "summary": "核心主题：通过法医破案故事，揭露人性中光明与黑暗的两面性，探讨“偷窥”这一行为背后的心理动机与社会根源，同时展现法医工作者在恶劣环境中坚守职业使命的奉献精神。适合人群：悬疑推理小说爱好者；对法医职业、犯罪心理学感兴趣的读者；关注社会人性议题的普通读者；法医学专业学生及从业者。要点1：法医职业的现实困境与精神坚守。要点2：人性中的光明与黑暗仅一念之差。例如，左怜被囚禁的遭遇，暗示了“偷窥”这一行为如何从心理越界演变为实际犯罪",
+      "keywords": [
+        "光明与黑暗"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/法医文学与人性心理学",
+        "type/concept",
+        "source/偷窥者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/法医文学与人性心理学/科学推理思维.md"
+    },
+    {
+      "id": "黑暗适应心理韧性.md",
+      "label": "黑暗适应心理韧性",
+      "title": "黑暗适应心理韧性",
+      "type": "book",
+      "degree": 1,
+      "cluster": "法医文学与人性心理学",
+      "domain": "心理学",
+      "sub_domain": "法医文学与人性心理学",
+      "summary": "核心主题：通过法医破案故事，揭露人性中光明与黑暗的两面性，探讨“偷窥”这一行为背后的心理动机与社会根源，同时展现法医工作者在恶劣环境中坚守职业使命的奉献精神。适合人群：悬疑推理小说爱好者；对法医职业、犯罪心理学感兴趣的读者；关注社会人性议题的普通读者；法医学专业学生及从业者。要点1：法医职业的现实困境与精神坚守。要点2：人性中的光明与黑暗仅一念之差。例如，左怜被囚禁的遭遇，暗示了“偷窥”这一行为如何从心理越界演变为实际犯罪",
+      "keywords": [
+        "光明与黑暗"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/法医文学与人性心理学",
+        "type/concept",
+        "source/偷窥者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/法医文学与人性心理学/黑暗适应心理韧性.md"
+    },
+    {
+      "id": "微小共同体.md",
+      "label": "微小共同体",
+      "title": "微小共同体",
+      "type": "book",
+      "degree": 1,
+      "cluster": "文学与阅读疗愈",
+      "domain": "心理学",
+      "sub_domain": "文学与阅读疗愈",
+      "summary": "作者：[法] 让-保尔•迪迪耶洛朗。核心主题：通过一个在毁灭性工厂工作的年轻人每天在快铁上为陌生人朗读的仪式，探讨在机械、压抑的现代生活中，如何通过阅读、语言和微小善行找回人性的尊严与意义。适合人群：对现代职场异化、阅读疗愈、平凡生活中的诗意感兴趣的读者；喜欢法国文学细腻笔触与黑色幽默的读者；正在寻找生活意义或对抗职业倦怠的人。主人公吉兰·维尼奥勒每天清晨在快铁上朗读从工厂“碎霸500”粉碎的书中抢救出的书页。吉兰的朗读仪式具有典型的“阈限”特征：在快铁这个过渡空间（从家到工厂），在",
+      "keywords": [
+        "分的朗读者"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/文学与阅读疗愈",
+        "type/concept",
+        "source/6点27分的朗读者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学与阅读疗愈/微小共同体.md"
+    },
+    {
+      "id": "声学阅读.md",
+      "label": "声学阅读",
+      "title": "声学阅读",
+      "type": "book",
+      "degree": 1,
+      "cluster": "文学与阅读疗愈",
+      "domain": "心理学",
+      "sub_domain": "文学与阅读疗愈",
+      "summary": "作者：[法] 让-保尔•迪迪耶洛朗。核心主题：通过一个在毁灭性工厂工作的年轻人每天在快铁上为陌生人朗读的仪式，探讨在机械、压抑的现代生活中，如何通过阅读、语言和微小善行找回人性的尊严与意义。适合人群：对现代职场异化、阅读疗愈、平凡生活中的诗意感兴趣的读者；喜欢法国文学细腻笔触与黑色幽默的读者；正在寻找生活意义或对抗职业倦怠的人。主人公吉兰·维尼奥勒每天清晨在快铁上朗读从工厂“碎霸500”粉碎的书中抢救出的书页。吉兰的朗读仪式具有典型的“阈限”特征：在快铁这个过渡空间（从家到工厂），在",
+      "keywords": [
+        "分的朗读者"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/文学与阅读疗愈",
+        "type/concept",
+        "source/6点27分的朗读者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学与阅读疗愈/声学阅读.md"
+    },
+    {
+      "id": "语言抵抗.md",
+      "label": "语言抵抗",
+      "title": "语言抵抗",
+      "type": "book",
+      "degree": 1,
+      "cluster": "文学与阅读疗愈",
+      "domain": "心理学",
+      "sub_domain": "文学与阅读疗愈",
+      "summary": "作者：[法] 让-保尔•迪迪耶洛朗。核心主题：通过一个在毁灭性工厂工作的年轻人每天在快铁上为陌生人朗读的仪式，探讨在机械、压抑的现代生活中，如何通过阅读、语言和微小善行找回人性的尊严与意义。适合人群：对现代职场异化、阅读疗愈、平凡生活中的诗意感兴趣的读者；喜欢法国文学细腻笔触与黑色幽默的读者；正在寻找生活意义或对抗职业倦怠的人。主人公吉兰·维尼奥勒每天清晨在快铁上朗读从工厂“碎霸500”粉碎的书中抢救出的书页。吉兰的朗读仪式具有典型的“阈限”特征：在快铁这个过渡空间（从家到工厂），在",
+      "keywords": [
+        "分的朗读者"
+      ],
+      "tags": [
+        "domain/心理学",
+        "sub_domain/文学与阅读疗愈",
+        "type/concept",
+        "source/6点27分的朗读者"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学与阅读疗愈/语言抵抗.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与心理学",
+      "title": "文学与心理学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与心理",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学与心理学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与表达",
+      "title": "沟通与表达",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与表达",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与表达/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与倾听",
+      "title": "沟通与倾听",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与倾听",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与倾听/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与演讲",
+      "title": "沟通与演讲",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与演讲",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与演讲/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "情感与成长",
+      "title": "情感与成长",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "情感与成长",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/情感与成长/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与社交",
+      "title": "沟通与社交",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与社交",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与社交/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "动物行为学",
+      "title": "动物行为学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "动物行为学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/动物行为学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与反馈",
+      "title": "沟通与反馈",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与反馈",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与反馈/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "组织行为学",
+      "title": "组织行为学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "组织行为学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/组织行为学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "演讲与沟通",
+      "title": "演讲与沟通",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "演讲与沟通",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/演讲与沟通/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "阅读与认知",
+      "title": "阅读与认知",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "阅读与认知",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/阅读与认知/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "行为决策学",
+      "title": "行为决策学",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "行为决策学",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/行为决策学/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "写作与认知",
+      "title": "写作与认知",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "写作与认知",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/写作与认知/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与情感",
+      "title": "文学与情感",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "文学与情感",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/文学与情感/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "谈判与沟通",
+      "title": "谈判与沟通",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "谈判与沟通",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/谈判与沟通/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "记忆与认知",
+      "title": "记忆与认知",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "记忆与认知",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/记忆与认知/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与谈判",
+      "title": "沟通与谈判",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与谈判",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与谈判/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与认知",
+      "title": "沟通与认知",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "沟通与认知",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/沟通与认知/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "感官与认知",
+      "title": "感官与认知",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "感官与认知",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/感官与认知/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "工具与效率",
+      "title": "工具与效率",
+      "type": "book",
+      "degree": 2,
+      "cluster": "心理学",
+      "domain": "心理学",
+      "sub_domain": "心理学",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "工具与效率",
+        "笔记总数"
+      ],
+      "tags": [
+        "domain/心理学",
+        "type/sub-domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/心理学/工具与效率/INDEX.md"
+    }
+  ],
+  "links": [
+    {
+      "source": "INDEX.md",
+      "target": "INDEX.md",
+      "value": 2,
+      "shared": [
+        "笔记总数",
+        "工具与效率"
+      ]
+    }
+  ],
+  "search_data": [
+    {
+      "id": "INDEX.md",
+      "label": "情绪管理"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "群体心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "人生态度与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理咨询"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "职场沟通"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "女性主义"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人成长与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "职场心理"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "恋爱技巧"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "职场成长与心理"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "精神分析"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "社交情商"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人效能"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "认知心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理学与文学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学创作与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "销售效率"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "社交心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "社会心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "网络心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "性格分析"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "情感关系与心理"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "决策心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "演化心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人成长与情感"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "个人理财与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学分析与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "医学认知与决策"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "精神政治学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理学与哲学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "认知科学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "青春文学与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "两性社交与沟通"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "自我成长与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通谈判"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "心理治疗"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "科幻文学与心理学"
+    },
+    {
+      "id": "描述性语法.md",
+      "label": "描述性语法"
+    },
+    {
+      "id": "认知共情.md",
+      "label": "认知共情"
+    },
+    {
+      "id": "老信息-新信息原则.md",
+      "label": "老信息-新信息原则"
+    },
+    {
+      "id": "知识的诅咒.md",
+      "label": "知识的诅咒"
+    },
+    {
+      "id": "名词化.md",
+      "label": "名词化"
+    },
+    {
+      "id": "偷窥心理动机.md",
+      "label": "偷窥心理动机"
+    },
+    {
+      "id": "人性光明与黑暗.md",
+      "label": "人性光明与黑暗"
+    },
+    {
+      "id": "科学推理思维.md",
+      "label": "科学推理思维"
+    },
+    {
+      "id": "黑暗适应心理韧性.md",
+      "label": "黑暗适应心理韧性"
+    },
+    {
+      "id": "微小共同体.md",
+      "label": "微小共同体"
+    },
+    {
+      "id": "声学阅读.md",
+      "label": "声学阅读"
+    },
+    {
+      "id": "语言抵抗.md",
+      "label": "语言抵抗"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与心理学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与表达"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与倾听"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与演讲"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "情感与成长"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与社交"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "动物行为学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与反馈"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "组织行为学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "演讲与沟通"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "阅读与认知"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "行为决策学"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "写作与认知"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "文学与情感"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "谈判与沟通"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "记忆与认知"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与谈判"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "沟通与认知"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "感官与认知"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "工具与效率"
+    }
+  ],
+  "total_notes": 70,
+  "sampled_nodes": 70
+}

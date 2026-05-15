@@ -1,0 +1,383 @@
+{
+  "page_name": "未知",
+  "domain": "未知",
+  "sub_domain": "(全部)",
+  "nodes": [
+    {
+      "id": "Dashboard.md",
+      "label": "知识库仪表盘",
+      "title": "知识库仪表盘",
+      "type": "book",
+      "degree": 8,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "📊 Obsidian 知识库仪表盘。> 这个仪表盘提供知识库的整体概览和快速导航。所有统计数据由 Dataview 插件自动生成。领域   笔记数   百分比  文学   $= dv.pages('\"文学\"').length   $= Math.round(dv.pages('\"文学\"').length / dv.pages().length  100) %  历史   $= dv.pages('\"历史\"').length   $= Math.round(dv.pages('\"历史\"').length / dv.pages().length  100) %  心理学   $= dv.pages",
+      "keywords": [
+        "完整标签浏览器",
+        "快速创建笔记",
+        "查看链接图谱",
+        "快速切换笔记",
+        "笔记总数",
+        "概念笔记",
+        "书籍笔记",
+        "每日笔记"
+      ],
+      "tags": [
+        "type/dashboard"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/Dashboard.md"
+    },
+    {
+      "id": "LOG.md",
+      "label": "LOG",
+      "title": "LOG",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/LOG.md"
+    },
+    {
+      "id": "Tags.md",
+      "label": "标签浏览器",
+      "title": "标签浏览器",
+      "type": "book",
+      "degree": 6,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 这个笔记帮助你按标签浏览知识库。点击任意标签可以查看所有带有该标签的笔记。按子领域（Sub-domain）浏览。搜索标签: 在 Obsidian 中点击左侧边栏的标签图标。嵌套标签: 使用 / 创建层级标签（如 domain/文学）",
+      "keywords": [
+        "搜索标签",
+        "嵌套标签",
+        "组合筛选",
+        "版本",
+        "标签浏览",
+        "按标签"
+      ],
+      "tags": [
+        "type/tags"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/Tags.md"
+    },
+    {
+      "id": "01基础知识 - 四层笔记.md",
+      "label": "01基础知识 - 四层笔记",
+      "title": "01基础知识 - 四层笔记",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/01基础知识 - 四层笔记.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "雅思知识地图",
+      "title": "雅思知识地图",
+      "type": "book",
+      "degree": 5,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 雅思考试相关知识，包括听力、阅读、写作、口语四个模块。核心概念：定位词、同义替换、口音适应。> 笔记总数：0 个（试点处理中）。> 最后更新：2026-05-14",
+      "keywords": [
+        "核心概念",
+        "笔记数量",
+        "更新时间",
+        "笔记总数",
+        "核心概念"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/雅思/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "会计知识地图",
+      "title": "会计知识地图",
+      "type": "book",
+      "degree": 5,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 会计相关知识，包括财务会计、成本会计、管理会计等。核心概念：变动成本、固定成本、盈亏平衡点。> 笔记总数：0 个（试点处理中）。> 最后更新：2026-05-14",
+      "keywords": [
+        "核心概念",
+        "笔记数量",
+        "笔记总数",
+        "更新时间",
+        "成本会"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/会计/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "其他知识地图",
+      "title": "其他知识地图",
+      "type": "book",
+      "degree": 3,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "笔记总数",
+        "更新时间",
+        "笔记数"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/其他/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "IT知识地图",
+      "title": "IT知识地图",
+      "type": "book",
+      "degree": 5,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 信息技术相关知识，包括编程、算法、数据结构、系统设计等。核心概念：Python、JavaScript、代码质量。> 笔记总数：0 个（试点处理中）。> 最后更新：2026-05-14",
+      "keywords": [
+        "核心概念",
+        "笔记数量",
+        "笔记总数",
+        "更新时间",
+        "核心概念"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/IT/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "产品知识地图",
+      "title": "产品知识地图",
+      "type": "book",
+      "degree": 3,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "笔记总数",
+        "更新时间",
+        "笔记数"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/产品/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "英语知识地图",
+      "title": "英语知识地图",
+      "type": "book",
+      "degree": 3,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 笔记总数: 0 个（试点处理中）。> 最后更新: 2026-05-14",
+      "keywords": [
+        "笔记总数",
+        "更新时间",
+        "笔记数"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/英语/INDEX.md"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "房地产知识地图",
+      "title": "房地产知识地图",
+      "type": "book",
+      "degree": 5,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "> 房地产相关知识，包括商业地产、投资分析、运营管理等。核心概念：REITs、资本化率、净营业收入。> 笔记总数：0 个（试点处理中）。> 最后更新：2026-05-14",
+      "keywords": [
+        "房地产",
+        "核心概念",
+        "笔记数量",
+        "笔记总数",
+        "更新时间"
+      ],
+      "tags": [
+        "type/domain-index"
+      ],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/房地产/INDEX.md"
+    },
+    {
+      "id": "2026-05-14-知识库管理报告.md",
+      "label": "2026-05-14-知识库管理报告",
+      "title": "2026-05-14-知识库管理报告",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/每日知识库管理报告/2026-05-14-知识库管理报告.md"
+    },
+    {
+      "id": "阅读价值.md",
+      "label": "阅读价值",
+      "title": "阅读价值",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读哲学/阅读价值.md"
+    },
+    {
+      "id": "书籍文化.md",
+      "label": "书籍文化",
+      "title": "书籍文化",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读哲学/书籍文化.md"
+    },
+    {
+      "id": "阅读与思考的辩证.md",
+      "label": "阅读与思考的辩证",
+      "title": "阅读与思考的辩证",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读哲学/阅读与思考的辩证.md"
+    },
+    {
+      "id": "批判性思考.md",
+      "label": "批判性思考",
+      "title": "批判性思考",
+      "type": "book",
+      "degree": 1,
+      "cluster": "未知",
+      "domain": "未知",
+      "sub_domain": "未知",
+      "summary": "",
+      "keywords": [],
+      "tags": [],
+      "path": "/Users/liwenqi/Desktop/Obsidian Vault/文学/阅读哲学/批判性思考.md"
+    }
+  ],
+  "links": [
+    {
+      "source": "INDEX.md",
+      "target": "INDEX.md",
+      "value": 5,
+      "shared": [
+        "笔记总数",
+        "房地产",
+        "核心概念",
+        "更新时间",
+        "笔记数量"
+      ]
+    }
+  ],
+  "search_data": [
+    {
+      "id": "Dashboard.md",
+      "label": "知识库仪表盘"
+    },
+    {
+      "id": "LOG.md",
+      "label": "LOG"
+    },
+    {
+      "id": "Tags.md",
+      "label": "标签浏览器"
+    },
+    {
+      "id": "01基础知识 - 四层笔记.md",
+      "label": "01基础知识 - 四层笔记"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "雅思知识地图"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "会计知识地图"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "其他知识地图"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "IT知识地图"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "产品知识地图"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "英语知识地图"
+    },
+    {
+      "id": "INDEX.md",
+      "label": "房地产知识地图"
+    },
+    {
+      "id": "2026-05-14-知识库管理报告.md",
+      "label": "2026-05-14-知识库管理报告"
+    },
+    {
+      "id": "阅读价值.md",
+      "label": "阅读价值"
+    },
+    {
+      "id": "书籍文化.md",
+      "label": "书籍文化"
+    },
+    {
+      "id": "阅读与思考的辩证.md",
+      "label": "阅读与思考的辩证"
+    },
+    {
+      "id": "批判性思考.md",
+      "label": "批判性思考"
+    }
+  ],
+  "total_notes": 16,
+  "sampled_nodes": 16
+}
