@@ -95,17 +95,17 @@ def add_js_rendering(html_content):
         # 找到showDetail函数，替换四层笔记的渲染部分
         
         # 新的渲染代码（使用marked.js或手动转换markdown）
-        new_rendering = '''  /* 四层笔记 */
+        new_rendering = r'''  /* 四层笔记 */
   if(d.fourLayerNotes){
-    // 简单的markdown转HTML
-    var notesHtml = d.fourLayerNotes
-      .replace(/^# (.*)$/gm, '<h3>$1</h3>')
-      .replace(/^## (.*)$/gm, '<h4>$1</h4>')
-      .replace(/^### (.*)$/gm, '<h5>$1</h5>')
-      .replace(/^\*\*(.*?)\*\*$/gm, '<strong>$1</strong>')
-      .replace(/^\* (.*)$/gm, '<li>$1</li>')
-      .replace(/\n\n/g, '<br><br>')
-      .replace(/\n/g, '<br>');
+    var notesHtml = d.fourLayerNotes;
+    // Markdown转HTML（简单版）
+    notesHtml = notesHtml.replace(/^# (.*)$/gm, '<h3>$1</h3>');
+    notesHtml = notesHtml.replace(/^## (.*)$/gm, '<h4>$1</h4>');
+    notesHtml = notesHtml.replace(/^### (.*)$/gm, '<h5>$1</h5>');
+    notesHtml = notesHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    notesHtml = notesHtml.replace(/^- (.*)$/gm, '<li>$1</li>');
+    notesHtml = notesHtml.replace(/\n\n/g, '<br><br>');
+    notesHtml = notesHtml.replace(/\n/g, '<br>');
     html += '<div class="section"><div class="section-title">📚 四层笔记</div><div class="four-layer-notes">' + notesHtml + '</div></div>';
   }'''
         

@@ -105,9 +105,18 @@ def update_html_file(html_file, notes_dict):
     html += '<div class="section"><a class="open-link" href="' + obsidianUrl + '">📂 在 Obsidian 中打开</a></div>';
   }'''
         
-        new_detail_html = '''  /* 四层笔记 */
+        new_detail_html = r'''  /* 四层笔记 */
   if(d.fourLayerNotes){
-    html += '<div class="section"><div class="section-title">📚 四层笔记</div><div class="four-layer-notes">' + d.fourLayerNotes.replace(/# /g, '<h3>').replace(/## /g, '<h4>').replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>') + '</div></div>';
+    var notesHtml = d.fourLayerNotes;
+    // Markdown转HTML（简单版）
+    notesHtml = notesHtml.replace(/^# (.*)$/gm, '<h3>$1</h3>');
+    notesHtml = notesHtml.replace(/^## (.*)$/gm, '<h4>$1</h4>');
+    notesHtml = notesHtml.replace(/^### (.*)$/gm, '<h5>$1</h5>');
+    notesHtml = notesHtml.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+    notesHtml = notesHtml.replace(/^- (.*)$/gm, '<li>$1</li>');
+    notesHtml = notesHtml.replace(/\n\n/g, '<br><br>');
+    notesHtml = notesHtml.replace(/\n/g, '<br>');
+    html += '<div class="section"><div class="section-title">📚 四层笔记</div><div class="four-layer-notes">' + notesHtml + '</div></div>';
   }
   
   /* 打开原文件：用 Obsidian URI 协议，避免浏览器 file:// 限制 */
