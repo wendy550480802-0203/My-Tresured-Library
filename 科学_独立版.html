@@ -9,14 +9,6 @@
 body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:#0f172a; color:#e2e8f0; overflow:hidden; }
 
 /* 侧边栏 */
-#sidebar { position:fixed; left:0; top:0; width:200px; height:100vh; background:#1e293b; border-right:1px solid #334155; overflow-y:auto; z-index:50; transition:transform 0.3s; }
-#sidebar.collapsed { transform:translateX(-200px); }
-#sidebar h2 { font-size:13px; padding:12px 14px 8px; color:#94a3b8; border-bottom:1px solid #334155; }
-#sidebar a { display:block; padding:7px 14px; font-size:12px; color:#cbd5e1; text-decoration:none; border-bottom:1px solid #1a2332; transition:background 0.15s; }
-#sidebar a:hover { background:#334155; color:#fff; }
-#sidebar a.active { background:#f97316; color:#0f172a; font-weight:600; }
-#sidebar-toggle { position:fixed; left:8px; top:56px; z-index:60; background:#334155; border:1px solid #475569; color:#e2e8f0; border-radius:6px; padding:4px 7px; cursor:pointer; font-size:13px; transition:left 0.3s; }
-#sidebar:not(.collapsed) ~ #sidebar-toggle { left:208px; }
 
 /* 右侧详情面板 */
 #detail-panel { position:fixed; top:0; right:-420px; width:400px; height:100vh; background:#1e293b; border-left:1px solid #334155; z-index:55; transition:right 0.3s; display:flex; flex-direction:column; }
@@ -40,8 +32,6 @@ body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 #detail-body .connected-list li:hover { color:#f97316; }
 
 #header { padding:10px 20px 10px 50px; background:#1e293b; border-bottom:1px solid #334155; display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-left:0; transition:margin-left 0.3s; }
-#sidebar.collapsed ~ #header { margin-left:0; }
-#header h1 { margin:0; font-size:17px; color:#f97316; white-space:nowrap; }
 #search-wrap { position:relative; }
 #search-box { width:220px; padding:5px 10px; border-radius:6px; border:1px solid #475569; background:#0f172a; color:#e2e8f0; font-size:13px; }
 #search-results { position:absolute; top:32px; left:0; width:260px; max-height:300px; overflow-y:auto; background:#1e293b; border:1px solid #475569; border-radius:6px; display:none; z-index:100; }
@@ -56,9 +46,7 @@ body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 .li { display:flex; align-items:center; gap:6px; margin-bottom:5px; }
 .ld { width:10px; height:10px; border-radius:50%; }
 #tooltip { position:absolute; padding:8px 12px; background:#1e293b; border:1px solid #475569; border-radius:8px; font-size:12px; pointer-events:none; opacity:0; transition:opacity 0.2s; z-index:100; box-shadow:0 4px 20px rgba(0,0,0,0.5); max-width:320px; }
-#graph { width:100vw; height:calc(100vh - 48px); margin-left:0; transition:width 0.3s, margin-left 0.3s; }
-#sidebar.collapsed ~ #graph { margin-left:0; width:100vw; }
-#detail-panel.open ~ #graph { width:calc(100vw - 400px); }
+#graph { width:calc(100vw - 200px); height:calc(100vh - 48px); margin-left:0; transition:width 0.3s, margin-left 0.3s; }
 .link { stroke:#475569; stroke-opacity:0.3; }
 .link-book { stroke-opacity:0.12; }
 .node circle { cursor:pointer; stroke-width:1.5; }
@@ -96,9 +84,8 @@ body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 
 
 
-
 <div id="header">
-    <h1>📚 科学 · 知识图谱</h1>
+  <h1>📚 科学 · 知识图谱</h1>
   <div id="search-wrap">
     <input id="search-box" type="text" placeholder="🔍 搜索书名/概念...">
     <div id="search-results"></div>
