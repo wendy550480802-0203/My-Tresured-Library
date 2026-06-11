@@ -9,7 +9,62 @@
 body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:#0f172a; color:#e2e8f0; overflow:hidden; }
 
 /* 侧边栏 */
+#sidebar { position:fixed; left:0; top:0; width:200px; height:100vh; background:#1e293b; border-right:1px solid #334155; overflow-y:auto; z-index:50; transition:transform 0.3s; }
+#sidebar.collapsed { transform:translateX(-200px); }
+#sidebar h2 { font-size:13px; padding:12px 14px 8px; color:#94a3b8; border-bottom:1px solid #334155; }
+#sidebar a { display:block; padding:7px 14px; font-size:12px; color:#cbd5e1; text-decoration:none; border-bottom:1px solid #1a2332; transition:background 0.15s; }
+#sidebar a:hover { background:#334155; color:#fff; }
+#sidebar a.active { background:#ec4899; color:#0f172a; font-weight:600; }
+#sidebar-toggle { position:fixed; left:8px; top:56px; z-index:60; background:#334155; border:1px solid #475569; color:#e2e8f0; border-radius:6px; padding:4px 7px; cursor:pointer; font-size:13px; transition:left 0.3s; }
+#sidebar:not(.collapsed) ~ #sidebar-toggle { left:208px; }
 
+/* 右侧详情面板 */
+#detail-panel { position:fixed; top:0; right:-420px; width:400px; height:100vh; background:#1e293b; border-left:1px solid #334155; z-index:55; transition:right 0.3s; display:flex; flex-direction:column; }
+#detail-panel.open { right:0; }
+#detail-header { padding:14px 16px; border-bottom:1px solid #334155; display:flex; align-items:flex-start; gap:10px; }
+#detail-header h2 { flex:1; font-size:14px; line-height:1.4; margin:0; word-break:break-all; }
+#detail-close { background:none; border:none; color:#94a3b8; font-size:18px; cursor:pointer; padding:0 4px; line-height:1; }
+#detail-close:hover { color:#fff; }
+#detail-body { flex:1; overflow-y:auto; padding:16px; font-size:13px; line-height:1.7; }
+#detail-body .section { margin-bottom:16px; }
+#detail-body .section-title { font-size:11px; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px; }
+#detail-body .tag { display:inline-block; padding:2px 8px; margin:2px 4px 2px 0; background:#334155; border-radius:4px; font-size:11px; color:#cbd5e1; }
+#detail-body .keyword { display:inline-block; padding:2px 8px; margin:2px 4px 2px 0; background:#ec489922; border:1px solid #ec489966; border-radius:4px; font-size:11px; color:#e2e8f0; }
+#detail-body .summary { color:#cbd5e1; white-space:pre-wrap; }
+#detail-body .open-link { display:inline-block; margin-top:12px; padding:6px 14px; background:#ec4899; color:#0f172a; border-radius:6px; text-decoration:none; font-size:12px; font-weight:600; }
+#detail-body .open-link:hover { opacity:0.85; }
+#detail-body .meta-row { display:flex; gap:12px; margin-bottom:8px; font-size:12px; }
+#detail-body .meta-label { color:#94a3b8; min-width:60px; }
+#detail-body .connected-list { list-style:none; padding:0; }
+#detail-body .connected-list li { padding:4px 0; border-bottom:1px solid #1a2332; font-size:12px; cursor:pointer; }
+#detail-body .connected-list li:hover { color:#ec4899; }
+
+#header { padding:10px 20px 10px 50px; background:#1e293b; border-bottom:1px solid #334155; display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-left:0; transition:margin-left 0.3s; }
+#sidebar.collapsed ~ #header { margin-left:0; }
+#header h1 { margin:0; font-size:17px; color:#ec4899; white-space:nowrap; }
+#search-wrap { position:relative; }
+#search-box { width:220px; padding:5px 10px; border-radius:6px; border:1px solid #475569; background:#0f172a; color:#e2e8f0; font-size:13px; }
+#search-results { position:absolute; top:32px; left:0; width:260px; max-height:300px; overflow-y:auto; background:#1e293b; border:1px solid #475569; border-radius:6px; display:none; z-index:100; }
+.sri { padding:7px 10px; cursor:pointer; font-size:12px; border-bottom:1px solid #334155; }
+.sri:hover { background:#334155; }
+.stats { font-size:12px; color:#94a3b8; white-space:nowrap; }
+.ctrls { display:flex; gap:6px; margin-left:auto; }
+.btn { padding:5px 12px; border-radius:6px; border:1px solid #475569; background:#334155; color:#e2e8f0; cursor:pointer; font-size:12px; }
+.btn:hover { background:#475569; }
+.btn.active { background:#ec4899; color:#0f172a; border-color:#ec4899; }
+#legend { position:absolute; top:52px; left:220px; background:#1e293b; border:1px solid #475569; border-radius:8px; padding:10px 14px; font-size:12px; z-index:10; }
+.li { display:flex; align-items:center; gap:6px; margin-bottom:5px; }
+.ld { width:10px; height:10px; border-radius:50%; }
+#tooltip { position:absolute; padding:8px 12px; background:#1e293b; border:1px solid #475569; border-radius:8px; font-size:12px; pointer-events:none; opacity:0; transition:opacity 0.2s; z-index:100; box-shadow:0 4px 20px rgba(0,0,0,0.5); max-width:320px; }
+#graph { width:100vw; height:calc(100vh - 48px); margin-left:0; transition:width 0.3s, margin-left 0.3s; }
+#sidebar.collapsed ~ #graph { margin-left:0; width:100vw; }
+#detail-panel.open ~ #graph { width:calc(100vw - 400px); }
+.link { stroke:#475569; stroke-opacity:0.3; }
+.link-book { stroke-opacity:0.12; }
+.node circle { cursor:pointer; stroke-width:1.5; }
+.node text { fill:#e2e8f0; font-size:10px; pointer-events:none; }
+.highlight circle { stroke:#fff !important; stroke-width:2.5px; }
+.highlight text { fill:#fff; font-weight:bold; }
 </style>
   <style>
     .four-layer-notes {
@@ -40,6 +95,15 @@ body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 <body>
 
 
+
+
+<div id="header">
+    <a href="index.html" style="color:#67e8f9;text-decoration:none;font-size:13px;margin-right:12px;">← 返回首页</a>
+  <h1>📚 教育 · 知识图谱</h1>
+  <div id="search-wrap">
+    <input id="search-box" type="text" placeholder="🔍 搜索书名/概念...">
+    <div id="search-results"></div>
+  </div>
   <div class="stats">
     <span id="node-count">0</span> 节点 ·
     <span id="link-count">0</span> 连接

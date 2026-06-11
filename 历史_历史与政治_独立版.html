@@ -9,12 +9,311 @@
 body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; background:#0f172a; color:#e2e8f0; overflow:hidden; }
 
 /* 侧边栏 */
+#sidebar { position:fixed; left:0; top:0; width:220px; height:100vh; background:#1e293b; border-right:1px solid #334155; overflow-y:auto; z-index:50; transition:transform 0.3s; font-size:12px; }
+#sidebar.collapsed { transform:translateX(-220px); }
+#sidebar h2 { font-size:13px; padding:12px 14px 8px; color:#94a3b8; border-bottom:1px solid #334155; }
+#sidebar .domain-header { padding:7px 14px; cursor:pointer; font-weight:600; border-bottom:1px solid #1a2332; transition:background 0.15s; user-select:none; }
+#sidebar .domain-header:hover { background:#334155; }
+#sidebar .domain-pages { display:none; }
+#sidebar .domain-pages a { display:block; padding:5px 14px 5px 24px; color:#cbd5e1; text-decoration:none; border-bottom:1px solid #1a2332; transition:background 0.15s; font-size:11px; }
+#sidebar .domain-pages a:hover { background:#334155; color:#fff; }
+#sidebar .domain-pages a.active { font-weight:600; }
+#sidebar a.active { background:#06b6d4; color:#0f172a; }
+#sidebar-toggle { position:fixed; left:8px; top:56px; z-index:60; background:#334155; border:1px solid #475569; color:#e2e8f0; border-radius:6px; padding:4px 7px; cursor:pointer; font-size:13px; transition:left 0.3s; }
+#sidebar:not(.collapsed) ~ #sidebar-toggle { left:228px; }
 
+/* 右侧详情面板 */
+#detail-panel { position:fixed; top:0; right:-420px; width:400px; height:100vh; background:#1e293b; border-left:1px solid #334155; z-index:55; transition:right 0.3s; display:flex; flex-direction:column; }
+#detail-panel.open { right:0; }
+#detail-header { padding:14px 16px; border-bottom:1px solid #334155; display:flex; align-items:flex-start; gap:10px; }
+#detail-header h2 { flex:1; font-size:14px; line-height:1.4; margin:0; word-break:break-all; }
+#detail-close { background:none; border:none; color:#94a3b8; font-size:18px; cursor:pointer; padding:0 4px; line-height:1; }
+#detail-close:hover { color:#fff; }
+#detail-body { flex:1; overflow-y:auto; padding:16px; font-size:13px; line-height:1.7; }
+#detail-body .section { margin-bottom:16px; }
+#detail-body .section-title { font-size:11px; color:#94a3b8; text-transform:uppercase; letter-spacing:0.5px; margin-bottom:6px; }
+#detail-body .tag { display:inline-block; padding:2px 8px; margin:2px 4px 2px 0; background:#334155; border-radius:4px; font-size:11px; color:#cbd5e1; }
+#detail-body .keyword { display:inline-block; padding:2px 8px; margin:2px 4px 2px 0; background:#06b6d422; border:1px solid #06b6d466; border-radius:4px; font-size:11px; color:#e2e8f0; }
+#detail-body .summary { color:#cbd5e1; white-space:pre-wrap; }
+#detail-body .open-link { display:inline-block; margin-top:12px; padding:6px 14px; background:#06b6d4; color:#0f172a; border-radius:6px; text-decoration:none; font-size:12px; font-weight:600; }
+#detail-body .open-link:hover { opacity:0.85; }
+#detail-body .meta-row { display:flex; gap:12px; margin-bottom:8px; font-size:12px; }
+#detail-body .meta-label { color:#94a3b8; min-width:60px; }
+#detail-body .connected-list { list-style:none; padding:0; }
+#detail-body .connected-list li { padding:4px 0; border-bottom:1px solid #1a2332; font-size:12px; cursor:pointer; }
+#detail-body .connected-list li:hover { color:#06b6d4; }
+
+#header { padding:10px 20px 10px 50px; background:#1e293b; border-bottom:1px solid #334155; display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-left:0; transition:margin-left 0.3s; }
+#sidebar.collapsed ~ #header { margin-left:0; }
+#header h1 { margin:0; font-size:17px; color:#06b6d4; white-space:nowrap; }
+#search-wrap { position:relative; }
+#search-box { width:220px; padding:5px 10px; border-radius:6px; border:1px solid #475569; background:#0f172a; color:#e2e8f0; font-size:13px; }
+#search-results { position:absolute; top:32px; left:0; width:260px; max-height:300px; overflow-y:auto; background:#1e293b; border:1px solid #475569; border-radius:6px; display:none; z-index:100; }
+.sri { padding:7px 10px; cursor:pointer; font-size:12px; border-bottom:1px solid #334155; }
+.sri:hover { background:#334155; }
+.stats { font-size:12px; color:#94a3b8; white-space:nowrap; }
+.ctrls { display:flex; gap:6px; margin-left:auto; }
+.btn { padding:5px 12px; border-radius:6px; border:1px solid #475569; background:#334155; color:#e2e8f0; cursor:pointer; font-size:12px; }
+.btn:hover { background:#475569; }
+.btn.active { background:#06b6d4; color:#0f172a; border-color:#06b6d4; }
+#legend { position:absolute; top:52px; left:220px; background:#1e293b; border:1px solid #475569; border-radius:8px; padding:10px 14px; font-size:12px; z-index:10; }
+.li { display:flex; align-items:center; gap:6px; margin-bottom:5px; }
+.ld { width:10px; height:10px; border-radius:50%; }
+#tooltip { position:absolute; padding:8px 12px; background:#1e293b; border:1px solid #475569; border-radius:8px; font-size:12px; pointer-events:none; opacity:0; transition:opacity 0.2s; z-index:100; box-shadow:0 4px 20px rgba(0,0,0,0.5); max-width:320px; }
+#graph { width:100vw; height:calc(100vh - 48px); margin-left:0; transition:width 0.3s, margin-left 0.3s; }
+#sidebar.collapsed ~ #graph { margin-left:0; width:100vw; }
+#detail-panel.open ~ #graph { width:calc(100vw - 400px); }
+.link { stroke:#475569; stroke-opacity:0.3; }
+.link-book { stroke-opacity:0.12; }
+.node circle { cursor:pointer; stroke-width:1.5; }
+.node text { fill:#e2e8f0; font-size:10px; pointer-events:none; }
+.highlight circle { stroke:#fff !important; stroke-width:2.5px; }
+.highlight text { fill:#fff; font-weight:bold; }
 </style>
 </head>
 <body>
 
 
+  <div class="domain-pages" id="IT">
+    <a href="IT.json" style="border-left:3px solid #67e8f9; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(225篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="个人成长" style="color:#fb923c; border-left:3px solid #fb923c;">个人成长 ▾</div>
+  <div class="domain-pages" id="个人成长">
+    <a href="个人成长.json" style="border-left:3px solid #fb923c; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(461篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="产品" style="color:#a855f7; border-left:3px solid #a855f7;">产品 ▾</div>
+  <div class="domain-pages" id="产品">
+    <a href="产品_(其他).json" style="border-left:3px solid #a855f7; padding-left:18px;">(其他) <span style="font-size:10px;color:#64748b;">(553篇)</span></a>
+    <a href="产品_产品思维.json" style="border-left:3px solid #a855f7; padding-left:18px;">产品思维 <span style="font-size:10px;color:#64748b;">(30篇)</span></a>
+    <a href="产品_小程序生态.json" style="border-left:3px solid #a855f7; padding-left:18px;">小程序生态 <span style="font-size:10px;color:#64748b;">(66篇)</span></a>
+    <a href="产品_用户增长.json" style="border-left:3px solid #a855f7; padding-left:18px;">用户增长 <span style="font-size:10px;color:#64748b;">(49篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="会计" style="color:#86efac; border-left:3px solid #86efac;">会计 ▾</div>
+  <div class="domain-pages" id="会计">
+    <a href="会计.json" style="border-left:3px solid #86efac; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(67篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="健康" style="color:#34d399; border-left:3px solid #34d399;">健康 ▾</div>
+  <div class="domain-pages" id="健康">
+    <a href="健康.json" style="border-left:3px solid #34d399; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(284篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="写作" style="color:#c084fc; border-left:3px solid #c084fc;">写作 ▾</div>
+  <div class="domain-pages" id="写作">
+    <a href="写作.json" style="border-left:3px solid #c084fc; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(238篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="历史" style="color:#06b6d4; border-left:3px solid #06b6d4;">历史 ▾</div>
+  <div class="domain-pages" id="历史">
+    <a href="历史_(其他)_part1.json" style="border-left:3px solid #06b6d4; padding-left:18px;">(其他)（1/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="历史_(其他)_part2.json" style="border-left:3px solid #06b6d4; padding-left:18px;">(其他)（2/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="历史_(其他)_part3.json" style="border-left:3px solid #06b6d4; padding-left:18px;">(其他)（3/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="历史_(其他)_part4.json" style="border-left:3px solid #06b6d4; padding-left:18px;">(其他)（4/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="历史_(其他)_part5.json" style="border-left:3px solid #06b6d4; padding-left:18px;">(其他)（5/5） <span style="font-size:10px;color:#64748b;">(541篇)</span></a>
+    <a href="历史_世界史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">世界史 <span style="font-size:10px;color:#64748b;">(36篇)</span></a>
+    <a href="历史_中国历史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">中国历史 <span style="font-size:10px;color:#64748b;">(96篇)</span></a>
+    <a href="历史_中国古代文学.json" style="border-left:3px solid #06b6d4; padding-left:18px;">中国古代文学 <span style="font-size:10px;color:#64748b;">(31篇)</span></a>
+    <a href="历史_中国现代文学.json" style="border-left:3px solid #06b6d4; padding-left:18px;">中国现代文学 <span style="font-size:10px;color:#64748b;">(72篇)</span></a>
+    <a href="历史_中国近代史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">中国近代史 <span style="font-size:10px;color:#64748b;">(64篇)</span></a>
+    <a href="历史_人物传记.json" style="border-left:3px solid #06b6d4; padding-left:18px;">人物传记 <span style="font-size:10px;color:#64748b;">(143篇)</span></a>
+    <a href="历史_军事历史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">军事历史 <span style="font-size:10px;color:#64748b;">(55篇)</span></a>
+    <a href="历史_历史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">历史 <span style="font-size:10px;color:#64748b;">(538篇)</span></a>
+    <a href="历史_历史与政治.json" class="active" style="border-left:3px solid #06b6d4; padding-left:18px;">历史与政治 <span style="font-size:10px;color:#64748b;">(50篇)</span></a>
+    <a href="历史_历史人物传记.json" style="border-left:3px solid #06b6d4; padding-left:18px;">历史人物传记 <span style="font-size:10px;color:#64748b;">(57篇)</span></a>
+    <a href="历史_历史学.json" style="border-left:3px solid #06b6d4; padding-left:18px;">历史学 <span style="font-size:10px;color:#64748b;">(189篇)</span></a>
+    <a href="历史_历史小说.json" style="border-left:3px solid #06b6d4; padding-left:18px;">历史小说 <span style="font-size:10px;color:#64748b;">(50篇)</span></a>
+    <a href="历史_历史研究.json" style="border-left:3px solid #06b6d4; padding-left:18px;">历史研究 <span style="font-size:10px;color:#64748b;">(162篇)</span></a>
+    <a href="历史_思想史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">思想史 <span style="font-size:10px;color:#64748b;">(41篇)</span></a>
+    <a href="历史_文学与历史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">文学与历史 <span style="font-size:10px;color:#64748b;">(61篇)</span></a>
+    <a href="历史_科技史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">科技史 <span style="font-size:10px;color:#64748b;">(33篇)</span></a>
+    <a href="历史_艺术史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">艺术史 <span style="font-size:10px;color:#64748b;">(83篇)</span></a>
+    <a href="历史_西方哲学史.json" style="border-left:3px solid #06b6d4; padding-left:18px;">西方哲学史 <span style="font-size:10px;color:#64748b;">(36篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="哲学" style="color:#14b8a6; border-left:3px solid #14b8a6;">哲学 ▾</div>
+  <div class="domain-pages" id="哲学">
+    <a href="哲学_(其他)_part1.json" style="border-left:3px solid #14b8a6; padding-left:18px;">(其他)（1/2） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="哲学_(其他)_part2.json" style="border-left:3px solid #14b8a6; padding-left:18px;">(其他)（2/2） <span style="font-size:10px;color:#64748b;">(272篇)</span></a>
+    <a href="哲学_中国哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">中国哲学 <span style="font-size:10px;color:#64748b;">(41篇)</span></a>
+    <a href="哲学_人生哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">人生哲学 <span style="font-size:10px;color:#64748b;">(60篇)</span></a>
+    <a href="哲学_哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">哲学 <span style="font-size:10px;color:#64748b;">(86篇)</span></a>
+    <a href="哲学_政治哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">政治哲学 <span style="font-size:10px;color:#64748b;">(61篇)</span></a>
+    <a href="哲学_生活哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">生活哲学 <span style="font-size:10px;color:#64748b;">(37篇)</span></a>
+    <a href="哲学_社会哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">社会哲学 <span style="font-size:10px;color:#64748b;">(33篇)</span></a>
+    <a href="哲学_科学哲学.json" style="border-left:3px solid #14b8a6; padding-left:18px;">科学哲学 <span style="font-size:10px;color:#64748b;">(37篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="商业" style="color:#10b981; border-left:3px solid #10b981;">商业 ▾</div>
+  <div class="domain-pages" id="商业">
+    <a href="商业_(其他)_part1.json" style="border-left:3px solid #10b981; padding-left:18px;">(其他)（1/3） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="商业_(其他)_part2.json" style="border-left:3px solid #10b981; padding-left:18px;">(其他)（2/3） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="商业_(其他)_part3.json" style="border-left:3px solid #10b981; padding-left:18px;">(其他)（3/3） <span style="font-size:10px;color:#64748b;">(391篇)</span></a>
+    <a href="商业_企业管理.json" style="border-left:3px solid #10b981; padding-left:18px;">企业管理 <span style="font-size:10px;color:#64748b;">(58篇)</span></a>
+    <a href="商业_健康管理.json" style="border-left:3px solid #10b981; padding-left:18px;">健康管理 <span style="font-size:10px;color:#64748b;">(41篇)</span></a>
+    <a href="商业_创业管理.json" style="border-left:3px solid #10b981; padding-left:18px;">创业管理 <span style="font-size:10px;color:#64748b;">(36篇)</span></a>
+    <a href="商业_商业战略.json" style="border-left:3px solid #10b981; padding-left:18px;">商业战略 <span style="font-size:10px;color:#64748b;">(36篇)</span></a>
+    <a href="商业_商业管理.json" style="border-left:3px solid #10b981; padding-left:18px;">商业管理 <span style="font-size:10px;color:#64748b;">(64篇)</span></a>
+    <a href="商业_投资理财.json" style="border-left:3px solid #10b981; padding-left:18px;">投资理财 <span style="font-size:10px;color:#64748b;">(55篇)</span></a>
+    <a href="商业_知识管理.json" style="border-left:3px solid #10b981; padding-left:18px;">知识管理 <span style="font-size:10px;color:#64748b;">(36篇)</span></a>
+    <a href="商业_管理.json" style="border-left:3px solid #10b981; padding-left:18px;">管理 <span style="font-size:10px;color:#64748b;">(55篇)</span></a>
+    <a href="商业_组织管理.json" style="border-left:3px solid #10b981; padding-left:18px;">组织管理 <span style="font-size:10px;color:#64748b;">(36篇)</span></a>
+    <a href="商业_经济学.json" style="border-left:3px solid #10b981; padding-left:18px;">经济学 <span style="font-size:10px;color:#64748b;">(74篇)</span></a>
+    <a href="商业_金融投资.json" style="border-left:3px solid #10b981; padding-left:18px;">金融投资 <span style="font-size:10px;color:#64748b;">(66篇)</span></a>
+    <a href="商业_领导力.json" style="border-left:3px solid #10b981; padding-left:18px;">领导力 <span style="font-size:10px;color:#64748b;">(76篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="图书馆学" style="color:#5eead4; border-left:3px solid #5eead4;">图书馆学 ▾</div>
+  <div class="domain-pages" id="图书馆学">
+    <a href="图书馆学.json" style="border-left:3px solid #5eead4; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(23篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="宗教" style="color:#c4b5fd; border-left:3px solid #c4b5fd;">宗教 ▾</div>
+  <div class="domain-pages" id="宗教">
+    <a href="宗教.json" style="border-left:3px solid #c4b5fd; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(19篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="心理学" style="color:#f59e0b; border-left:3px solid #f59e0b;">心理学 ▾</div>
+  <div class="domain-pages" id="心理学">
+    <a href="心理学_(其他)_part1.json" style="border-left:3px solid #f59e0b; padding-left:18px;">(其他)（1/4） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="心理学_(其他)_part2.json" style="border-left:3px solid #f59e0b; padding-left:18px;">(其他)（2/4） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="心理学_(其他)_part3.json" style="border-left:3px solid #f59e0b; padding-left:18px;">(其他)（3/4） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="心理学_(其他)_part4.json" style="border-left:3px solid #f59e0b; padding-left:18px;">(其他)（4/4） <span style="font-size:10px;color:#64748b;">(70篇)</span></a>
+    <a href="心理学_个人成长与心理学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">个人成长与心理学 <span style="font-size:10px;color:#64748b;">(31篇)</span></a>
+    <a href="心理学_心理健康.json" style="border-left:3px solid #f59e0b; padding-left:18px;">心理健康 <span style="font-size:10px;color:#64748b;">(31篇)</span></a>
+    <a href="心理学_心理学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">心理学 <span style="font-size:10px;color:#64748b;">(239篇)</span></a>
+    <a href="心理学_教育心理学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">教育心理学 <span style="font-size:10px;color:#64748b;">(43篇)</span></a>
+    <a href="心理学_文学与心理学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">文学与心理学 <span style="font-size:10px;color:#64748b;">(119篇)</span></a>
+    <a href="心理学_沟通技巧.json" style="border-left:3px solid #f59e0b; padding-left:18px;">沟通技巧 <span style="font-size:10px;color:#64748b;">(33篇)</span></a>
+    <a href="心理学_社会心理学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">社会心理学 <span style="font-size:10px;color:#64748b;">(76篇)</span></a>
+    <a href="心理学_认知心理学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">认知心理学 <span style="font-size:10px;color:#64748b;">(60篇)</span></a>
+    <a href="心理学_认知科学.json" style="border-left:3px solid #f59e0b; padding-left:18px;">认知科学 <span style="font-size:10px;color:#64748b;">(39篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="房地产" style="color:#6ee7b7; border-left:3px solid #6ee7b7;">房地产 ▾</div>
+  <div class="domain-pages" id="房地产">
+    <a href="房地产.json" style="border-left:3px solid #6ee7b7; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(12篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="政治" style="color:#fbbf24; border-left:3px solid #fbbf24;">政治 ▾</div>
+  <div class="domain-pages" id="政治">
+    <a href="政治.json" style="border-left:3px solid #fbbf24; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(253篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="教育" style="color:#ec4899; border-left:3px solid #ec4899;">教育 ▾</div>
+  <div class="domain-pages" id="教育">
+    <a href="教育_(其他)_part1.json" style="border-left:3px solid #ec4899; padding-left:18px;">(其他)（1/2） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="教育_(其他)_part2.json" style="border-left:3px solid #ec4899; padding-left:18px;">(其他)（2/2） <span style="font-size:10px;color:#64748b;">(382篇)</span></a>
+    <a href="教育_个人成长.json" style="border-left:3px solid #ec4899; padding-left:18px;">个人成长 <span style="font-size:10px;color:#64748b;">(250篇)</span></a>
+    <a href="教育_儿童教育.json" style="border-left:3px solid #ec4899; padding-left:18px;">儿童教育 <span style="font-size:10px;color:#64748b;">(62篇)</span></a>
+    <a href="教育_家庭教育.json" style="border-left:3px solid #ec4899; padding-left:18px;">家庭教育 <span style="font-size:10px;color:#64748b;">(57篇)</span></a>
+    <a href="教育_教育理念.json" style="border-left:3px solid #ec4899; padding-left:18px;">教育理念 <span style="font-size:10px;color:#64748b;">(68篇)</span></a>
+    <a href="教育_财商教育.json" style="border-left:3px solid #ec4899; padding-left:18px;">财商教育 <span style="font-size:10px;color:#64748b;">(48篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="文学" style="color:#8b5cf6; border-left:3px solid #8b5cf6;">文学 ▾</div>
+  <div class="domain-pages" id="文学">
+    <a href="文学_(其他)_part1.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">(其他)（1/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_(其他)_part2.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">(其他)（2/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_(其他)_part3.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">(其他)（3/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_(其他)_part4.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">(其他)（4/5） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_(其他)_part5.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">(其他)（5/5） <span style="font-size:10px;color:#64748b;">(34篇)</span></a>
+    <a href="文学_中国古典文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">中国古典文学 <span style="font-size:10px;color:#64748b;">(112篇)</span></a>
+    <a href="文学_儿童文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">儿童文学 <span style="font-size:10px;color:#64748b;">(42篇)</span></a>
+    <a href="文学_古典文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">古典文学 <span style="font-size:10px;color:#64748b;">(92篇)</span></a>
+    <a href="文学_奇幻文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">奇幻文学 <span style="font-size:10px;color:#64748b;">(51篇)</span></a>
+    <a href="文学_女性主义文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">女性主义文学 <span style="font-size:10px;color:#64748b;">(38篇)</span></a>
+    <a href="文学_悬疑小说分析.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">悬疑小说分析 <span style="font-size:10px;color:#64748b;">(52篇)</span></a>
+    <a href="文学_推理小说.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">推理小说 <span style="font-size:10px;color:#64748b;">(58篇)</span></a>
+    <a href="文学_推理小说分析.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">推理小说分析 <span style="font-size:10px;color:#64748b;">(126篇)</span></a>
+    <a href="文学_推理文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">推理文学 <span style="font-size:10px;color:#64748b;">(35篇)</span></a>
+    <a href="文学_文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学 <span style="font-size:10px;color:#64748b;">(223篇)</span></a>
+    <a href="文学_文学与个人成长.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学与个人成长 <span style="font-size:10px;color:#64748b;">(55篇)</span></a>
+    <a href="文学_文学与人生哲学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学与人生哲学 <span style="font-size:10px;color:#64748b;">(50篇)</span></a>
+    <a href="文学_文学与哲学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学与哲学 <span style="font-size:10px;color:#64748b;">(303篇)</span></a>
+    <a href="文学_文学与社会学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学与社会学 <span style="font-size:10px;color:#64748b;">(43篇)</span></a>
+    <a href="文学_文学分析_part1.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学分析（1/6） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_文学分析_part2.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学分析（2/6） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_文学分析_part3.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学分析（3/6） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_文学分析_part4.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学分析（4/6） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_文学分析_part5.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学分析（5/6） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="文学_文学分析_part6.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学分析（6/6） <span style="font-size:10px;color:#64748b;">(254篇)</span></a>
+    <a href="文学_文学批评.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学批评 <span style="font-size:10px;color:#64748b;">(70篇)</span></a>
+    <a href="文学_文学理论.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学理论 <span style="font-size:10px;color:#64748b;">(30篇)</span></a>
+    <a href="文学_文学研究.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学研究 <span style="font-size:10px;color:#64748b;">(84篇)</span></a>
+    <a href="文学_文学经典.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学经典 <span style="font-size:10px;color:#64748b;">(33篇)</span></a>
+    <a href="文学_文学解读.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学解读 <span style="font-size:10px;color:#64748b;">(40篇)</span></a>
+    <a href="文学_文学评论.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学评论 <span style="font-size:10px;color:#64748b;">(482篇)</span></a>
+    <a href="文学_文学赏析.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学赏析 <span style="font-size:10px;color:#64748b;">(72篇)</span></a>
+    <a href="文学_文学鉴赏.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学鉴赏 <span style="font-size:10px;color:#64748b;">(82篇)</span></a>
+    <a href="文学_文学阅读.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">文学阅读 <span style="font-size:10px;color:#64748b;">(78篇)</span></a>
+    <a href="文学_旅行文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">旅行文学 <span style="font-size:10px;color:#64748b;">(42篇)</span></a>
+    <a href="文学_日本文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">日本文学 <span style="font-size:10px;color:#64748b;">(98篇)</span></a>
+    <a href="文学_武侠文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">武侠文学 <span style="font-size:10px;color:#64748b;">(30篇)</span></a>
+    <a href="文学_科幻文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">科幻文学 <span style="font-size:10px;color:#64748b;">(175篇)</span></a>
+    <a href="文学_科幻文学分析.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">科幻文学分析 <span style="font-size:10px;color:#64748b;">(60篇)</span></a>
+    <a href="文学_网络文学分析.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">网络文学分析 <span style="font-size:10px;color:#64748b;">(34篇)</span></a>
+    <a href="文学_艺术鉴赏.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">艺术鉴赏 <span style="font-size:10px;color:#64748b;">(44篇)</span></a>
+    <a href="文学_非虚构文学.json" style="border-left:3px solid #8b5cf6; padding-left:18px;">非虚构文学 <span style="font-size:10px;color:#64748b;">(30篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="时尚生活" style="color:#f9a8d4; border-left:3px solid #f9a8d4;">时尚生活 ▾</div>
+  <div class="domain-pages" id="时尚生活">
+    <a href="时尚生活.json" style="border-left:3px solid #f9a8d4; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(71篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="未知" style="color:#94a3b8; border-left:3px solid #94a3b8;">未知 ▾</div>
+  <div class="domain-pages" id="未知">
+    <a href="未知.json" style="border-left:3px solid #94a3b8; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(16篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="法学" style="color:#fcd34d; border-left:3px solid #fcd34d;">法学 ▾</div>
+  <div class="domain-pages" id="法学">
+    <a href="法学.json" style="border-left:3px solid #fcd34d; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(66篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="社会学" style="color:#6366f1; border-left:3px solid #6366f1;">社会学 ▾</div>
+  <div class="domain-pages" id="社会学">
+    <a href="社会学_(其他)_part1.json" style="border-left:3px solid #6366f1; padding-left:18px;">(其他)（1/2） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="社会学_(其他)_part2.json" style="border-left:3px solid #6366f1; padding-left:18px;">(其他)（2/2） <span style="font-size:10px;color:#64748b;">(484篇)</span></a>
+    <a href="社会学_文化研究.json" style="border-left:3px solid #6366f1; padding-left:18px;">文化研究 <span style="font-size:10px;color:#64748b;">(57篇)</span></a>
+    <a href="社会学_社会学.json" style="border-left:3px solid #6366f1; padding-left:18px;">社会学 <span style="font-size:10px;color:#64748b;">(86篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="科学" style="color:#f97316; border-left:3px solid #f97316;">科学 ▾</div>
+  <div class="domain-pages" id="科学">
+    <a href="科学_(其他)_part1.json" style="border-left:3px solid #f97316; padding-left:18px;">(其他)（1/2） <span style="font-size:10px;color:#64748b;">(600篇)</span></a>
+    <a href="科学_(其他)_part2.json" style="border-left:3px solid #f97316; padding-left:18px;">(其他)（2/2） <span style="font-size:10px;color:#64748b;">(116篇)</span></a>
+    <a href="科学_医学人文.json" style="border-left:3px solid #f97316; padding-left:18px;">医学人文 <span style="font-size:10px;color:#64748b;">(33篇)</span></a>
+    <a href="科学_神经科学.json" style="border-left:3px solid #f97316; padding-left:18px;">神经科学 <span style="font-size:10px;color:#64748b;">(56篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="编程" style="color:#818cf8; border-left:3px solid #818cf8;">编程 ▾</div>
+  <div class="domain-pages" id="编程">
+    <a href="编程.json" style="border-left:3px solid #818cf8; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(151篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="艺术" style="color:#e879f9; border-left:3px solid #e879f9;">艺术 ▾</div>
+  <div class="domain-pages" id="艺术">
+    <a href="艺术.json" style="border-left:3px solid #e879f9; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(365篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="英语" style="color:#f472b6; border-left:3px solid #f472b6;">英语 ▾</div>
+  <div class="domain-pages" id="英语">
+    <a href="英语.json" style="border-left:3px solid #f472b6; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(209篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="语言文学" style="color:#d8b4fe; border-left:3px solid #d8b4fe;">语言文学 ▾</div>
+  <div class="domain-pages" id="语言文学">
+    <a href="语言文学.json" style="border-left:3px solid #d8b4fe; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(43篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="金融" style="color:#a3e635; border-left:3px solid #a3e635;">金融 ▾</div>
+  <div class="domain-pages" id="金融">
+    <a href="金融.json" style="border-left:3px solid #a3e635; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(208篇)</span></a>
+  </div>
+  <div class="domain-header" data-target="雅思" style="color:#22d3ee; border-left:3px solid #22d3ee;">雅思 ▾</div>
+  <div class="domain-pages" id="雅思">
+    <a href="雅思.json" style="border-left:3px solid #22d3ee; padding-left:18px;">(全部) <span style="font-size:10px;color:#64748b;">(511篇)</span></a>
+  </div>
+
+    <script>
+    document.querySelectorAll('.domain-header').forEach(function(h){
+      h.addEventListener('click', function(){
+        var t = document.getElementById(this.dataset.target);
+        t.style.display = t.style.display==='none' ? 'block' : 'none';
+        this.innerHTML = this.innerHTML.replace(/[▾▸]/, t.style.display==='none'?'▸':'▾');
+      });
+    });
+    </script>
+    
+</div>
+
+
+<div id="header">
+    <a href="index.html" style="color:#67e8f9;text-decoration:none;font-size:13px;margin-right:12px;">← 返回首页</a>
+  <h1>📚 历史 · 历史与政治</h1>
+  <div id="search-wrap">
+    <input id="search-box" type="text" placeholder="🔍 搜索书名/概念...">
+    <div id="search-results"></div>
+  </div>
   <div class="stats">
     <span id="node-count">0</span> 节点 ·
     <span id="link-count">0</span> 连接
